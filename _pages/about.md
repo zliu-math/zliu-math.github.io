@@ -2,33 +2,33 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Postdoctoral Researcher at <a href='http://www.simis.cn/'>SIMIS</a> & Fudan University.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false # 如果你想要圆形的头像，把这里改成 true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Shanghai Institute for Mathematics</p>
+    <p>and Interdisciplinary Sciences</p>
+    <p>Shanghai, China</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true # 这一项保留，它会自动展示你设为 selected=true 的论文
+social: true  # 这一项保留，展示你的 Google Scholar 和 Email 图标
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false # 已关闭：省去维护新闻的麻烦
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false # 已关闭：省去写博客的麻烦
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Ziran Liu is a mathematician whose research sits at the intersection of probability, geometry, and learning. He is currently a postdoctoral researcher at the Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS) and at the Research Institute of Intelligent Complex Systems at Fudan University. He received his Ph.D. in Operations Research from NYU Stern, following earlier training in mathematics at NYU Courant and Nankai University’s Chern Institute.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Ziran’s work is driven by a recurring question: how do **stochastic processes, geometric structure, and learning** interact in modern complex systems? On the mathematical side, he studies reflected Brownian motion, Gaussian fields, and Dirac-type operators on manifolds with boundary, technically on small-time asymptotics, the index-theoretic questions, and geometric invariants and how they drive foundational shifts in AI/Machine Learning/Deep Learning research. On the applied side, he works on models for queueing networks, Hawkes-driven random graphs, and diffusion-based generative systems, often aiming to keep rigorous probability close to real operational and AI questions.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In parallel, Ziran is developing a longer-term program in **entropy-regularized decision and learning**, centered around his VERA framework (Variational Entropy-Regularized Allocation). This line of work seeks a foundational, axiomatic understanding of how learning, information frictions, and time constraints reshape economic decision-making in the machine learning era, connecting ideas from rational inattention, convex analysis, and optimal transport.
+
+Across these directions, Ziran tends to work in a **reflective and active** style: he likes to step back to identify what is structurally essential in a problem and then build models that are both mathematically precise and conceptually meaningful for the surrounding community—whether in probability, geometry, AI, or economics. He is especially interested in projects that create genuine bridges, for example between stochastic analysis and index theory, between random matrix limits and deep neural networks, or between entropy-based preferences and learning-aware economic behavior.
+
+Ziran enjoys open, exploratory collaboration and is happy to hear from students and researchers who see resonance with their own interests—or who simply want to explore unexpected connections between these areas.
