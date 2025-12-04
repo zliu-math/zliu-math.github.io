@@ -23,7 +23,8 @@ latest_posts:
   enabled: false # 已关闭：省去写博客的麻烦
 ---
 
-Ziran Liu is a mathematician whose research sits at the intersection of probability, geometry, and learning. He is currently a postdoctoral researcher at the Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS) and at the Research Institute of Intelligent Complex Systems at Fudan University. He received his Ph.D. in Operations Research from NYU Stern, following earlier training in mathematics at NYU Courant and Nankai University’s Chern Institute.
+<br>
+<br>
 
 
 
@@ -31,8 +32,7 @@ Ziran Liu is a mathematician whose research sits at the intersection of probabil
 
 
 
-
-Ziran Liu is a mathematician whose research sits at the intersection of probability, geometry, and learning. He is currently a postdoctoral researcher at the <a href="http://www.simis.cn/">Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)</a> and at the <a href="https://riics.fudan.edu.cn/en/">Research Institute of Intelligent Complex Systems</a> at <a href="https://www.fudan.edu.cn/en/">Fudan University</a>. He received his Ph.D. in Operations Research from <a href="https://www.stern.nyu.edu/">NYU Stern</a>, following earlier training in mathematics at <a href="https://cims.nyu.edu/">NYU Courant</a> and <a href="http://www.cim.nankai.edu.cn/en/">Nankai University’s Chern Institute</a>.
+Ziran Liu is a researcher whose research sits at the intersection of probability, geometry, and learning. He is currently a postdoctoral researcher at the <a href="http://www.simis.cn/">Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)</a> and at the <a href="https://riics.fudan.edu.cn/en/">Research Institute of Intelligent Complex Systems</a> at <a href="https://www.fudan.edu.cn/en/">Fudan University</a>. He received his Ph.D. in Operations Research from <a href="https://www.stern.nyu.edu/">NYU Stern</a>, following earlier training in mathematics at <a href="https://cims.nyu.edu/">NYU Courant</a> and <a href="http://www.cim.nankai.edu.cn/en/">Nankai University’s Chern Institute</a>.
 
 Ziran’s work is driven by a recurring question: how do <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">stochastic processes, geometric structure, and learning</a> interact in modern complex systems? On the mathematical side, he studies <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">reflected Brownian motion</a>, <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">Gaussian fields</a>, and <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">Dirac-type operators</a> on manifolds with boundary, technically on small-time asymptotics, the index-theoretic questions, and geometric invariants and how they drive foundational shifts in <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">AI/Machine Learning/Deep Learning</a> research. On the applied side, he works on models for queueing networks, Hawkes-driven random graphs, and diffusion-based generative systems, often aiming to keep rigorous probability close to real operational and AI questions.
 
