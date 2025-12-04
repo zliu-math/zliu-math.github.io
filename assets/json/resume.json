@@ -6,7 +6,7 @@
     "email": "zliu@stern.nyu.edu",
     "phone": "+1 (646) 961-8656",
     "url": "https://zliu-math.github.io",
-    "summary": "Mathematician and Researcher specializing in Probability Theory, Stochastic Processes, and Differential Geometry, with applications to Operations Research, AI, and Machine Learning.",
+    "summary": "Researcher specializing in Probability Theory, Stochastic Processes, and Differential Geometry, with applications to Operations Research, AI, and Machine Learning.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -45,9 +45,9 @@
       "name": "UC Berkeley, Department of Statistics",
       "position": "Lecturer",
       "url": "https://statistics.berkeley.edu/",
-      "startDate": "2024-01-01",
-      "endDate": "2024-06-01",
-      "summary": "Delivered undergraduate courses on probability theory, including stochastic processes, Markov chains, CLT, and Poisson processes.",
+      "startDate": "2024-03-01",
+      "endDate": "2024-07-01",
+      "summary": "Undergraduate courses on probability theory, including stochastic processes, Markov chains, CLT, and Poisson processes.",
       "highlights": ["Developed teaching materials to strengthen conceptual understanding of random variables."]
     },
     {
