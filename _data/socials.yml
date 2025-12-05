@@ -8,33 +8,12 @@
 # Social Icons Data
 # -----------------------------------------------------------------------------
 
-# 1. 你的邮箱 (Email)
-email: zl1011@stern.nyu.edu
-
-# 2. 你的简历 (CV) - 这是一个特殊图标
-# 确保你的 PDF 文件已经传到了 assets/pdf/ 文件夹里
-cv_pdf: assets/pdf/ZL_CV.pdf
-
-# 3. 学术平台 (Google Scholar)
-# 去你的 Google Scholar 主页复制那一串 ID (user=后面的部分) 或者完整链接
-# scholar: https://scholar.google.com/citations?user=你的ID
-
-# 4. 领英 (LinkedIn) - 如果不想展示就整行删掉
-# linkedin: ziran-liu
-
-# 5. 其他你想展示的 (GitHub, ORCID 等)
-# github: zliu-math
-
-# --- 下面这些是模板自带的“垃圾数据”，请统统删掉！---
-# 找到类似下面的行，直接删除，那个爱因斯坦的头就像就会消失：
-# inspire_hep: ...
-# semanticscholar: ...
-# orcid: ...
-# wechat_qr: ...
 
 
 
 
+email: "zliu@stern.nyu.edu"
+cv_pdf: "assets/pdf/cv.pdf"
 
 # academia_edu:  your organization and your username Ex. https://organization.academia.edu/UserName
 # organization: SIMIS # your organization as appears in the subdomain
