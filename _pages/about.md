@@ -6,7 +6,7 @@ subtitle: Postdoctoral Researcher at <a href='http://www.simis.cn/'>SIMIS</a> & 
 
 profile:
   align: right
-  image: kyoto.jpg
+  image: kyoto2.jpg
   image_circular: false # 如果你想要圆形的头像，把这里改成 true
   more_info: >
     <p>Shanghai Institute for Mathematics</p>
