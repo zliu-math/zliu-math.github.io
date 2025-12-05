@@ -37,7 +37,7 @@ cv_pdf: assets/pdf/ZL_CV.pdf
 
 
 # academia_edu:  your organization and your username Ex. https://organization.academia.edu/UserName
-#  organization: princeton # your organization as appears in the subdomain
+  organization: SIMIS # your organization as appears in the subdomain
 #  username:  AlbertEinstein # your username
 # acm_id: # your dl.acm.org/profile/id
 # arxiv_id: # your arXiv author ID
