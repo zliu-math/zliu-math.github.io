@@ -452,14 +452,14 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%7A%6C%31%30%31%31@%73%74%65%72%6E.%6E%79%75.%65%64%75", "_blank");
+          window.open("mailto:%7A%6C%69%75@%73%74%65%72%6E.%6E%79%75.%65%64%75", "_blank");
         },
       },{
         id: 'social-cv',
-        title: 'Cv',
+        title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
+          window.open("/assets/pdf/cv.pdf", "_blank");
         },
       },{
       id: 'light-theme',
