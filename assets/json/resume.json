@@ -188,7 +188,10 @@
       "keywords": [
         "MATLAB",
         "C++",
-        "Python"
+        "Python",
+        "LEAN",
+        "Isabelle",
+        "Coq"
       ]
     }
   ],
@@ -201,7 +204,8 @@
         "Stochastic Processes",
         "Differential Geometry",
         "Artificial Intelligence",
-        "Machine Learning"
+        "Machine Learning",
+        "Deep Learning"
       ]
     }
   ],
