@@ -224,6 +224,11 @@
       "name": "Wenqiang Xiao",
       "icon": "fa-solid fa-user-tie",
       "reference": "Professor of Technology, Operations, and Statistics, NYU Stern. Email: wx2@stern.nyu.edu"
+    },
+    {
+      "name": "Michel Mandjes",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Professor Probability and Operations Research, Universiteit Leiden. Email: m.r.h.mandjes@math.leidenuniv.nl"
     }
   ],
   "projects": [
