@@ -13,7 +13,7 @@ profile:
     <p>and Interdisciplinary Sciences</p>
     <p>Shanghai, China, 200433</p>
 
-selected_papers: true # 这一项保留，它会自动展示你设为 selected=true 的论文
+selected_papers: false # 这一项保留，它会自动展示你设为 selected=true 的论文
 social: true  # 这一项保留，展示你的 Google Scholar 和 Email 图标
 
 announcements:
