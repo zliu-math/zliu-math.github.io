@@ -13,11 +13,8 @@ contact_note: >
            Yangpu District, 200433, Shanghai, China.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Ziran Liu, Mathematician, Researcher, AI, Deep Learning, Machine Learning, Probability Theory, Stochastic Analysis, Differential Geometry, Stochastic Processes, Mean Field Games, MFG, Gaussian Multiplicative Chaos, GMC, Diffusion Models, Machine Learning, AI, Operations Research, Queueing Theory, Reflected Brownian Motion, Interacting Particle Systems, Stochastic Networks, Large-scale Optimization, Complex Systems, Limit Theorems, Discrete Conformality, Geometric Invariants, Learnable Chaos Kernel, LCK, VERA Framework, NYU Stern, NYU, New York University, Courant Institute, Fudan University, SIMIS, Shanghai Institute for Mathematics and Interdisciplinary Sciences, UC Berkeley, Nankai University # add your own keywords or leave empty
+footer_text: ""
+keywords: Ziran Liu, Mathematician, Researcher, AI, Math4AI, AI4Math, Math for AI, AI for Math, Deep Learning, Machine Learning, Probability Theory, Stochastic Analysis, Differential Geometry, Stochastic Processes, Mean Field Games, MFG, Gaussian Multiplicative Chaos, GMC, Diffusion Models, Machine Learning, AI, Operations Research, Queueing Theory, Reflected Brownian Motion, Interacting Particle Systems, Stochastic Networks, Large-scale Optimization, Complex Systems, Limit Theorems, Discrete Conformality, Geometric Invariants, Learnable Chaos Kernel, LCK, VERA Framework, NYU Stern, NYU, New York University, Courant Institute, Fudan University, SIMIS, Shanghai Institute for Mathematics and Interdisciplinary Sciences, UC Berkeley, Nankai University # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ♾️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
