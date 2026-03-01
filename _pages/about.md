@@ -30,12 +30,21 @@ latest_posts:
 
 
 
-Ziran Liu is a researcher whose research sits at the intersection of probability, geometry, and learning. He is currently a postdoctoral researcher at the <a href="http://www.simis.cn/">Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)</a>, and <a href="https://www.fudan.edu.cn/en/">Fudan University</a>. He received his Ph.D. in Operations Research from <a href="https://www.stern.nyu.edu/">NYU Stern</a>, following earlier training in mathematics at <a href="https://cims.nyu.edu/">NYU Courant (M.S. in probability theory)</a> and <a href="http://www.cim.nankai.edu.cn/en/">Nankai University’s Chern Institute (M.S. in differential geometry and B.S. in pure math)</a>.
 
-Ziran’s work is driven by a recurring question: how do <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">stochastic processes, geometric structure, and learning</a> interact in modern complex systems? On the mathematical side, he studies <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">reflected Brownian motion</a>, <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">Gaussian fields</a>, and <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">Dirac-type operators</a> on manifolds with boundary, technically on small-time asymptotics, the index-theoretic questions, and geometric invariants and how they drive foundational shifts in <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">AI/Machine Learning/Deep Learning</a> research. On the applied side, he works on models for queueing networks, Hawkes-driven random graphs, and diffusion-based generative systems, often aiming to keep rigorous probability close to real operational and AI questions.
+My research connects mathematics and AI, spanning math for AI and AI for math. Mathematically, I am working in probability theory and differential geometry, and these areas remain central to my work in pure mathematics, also as underlying tools for me in AI. I move in both directions: I develop new mathematics motivated by AI, and I apply mathematical structure into methods for learning theory—while also exploring how AI can contribute back to mathematics. Many projects are designed as coupled programs: a foundational mathematical line and a companion AI track.
 
-In parallel, Ziran is developing a longer-term program in <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">entropy-regularized decision and learning</a>, centered around his <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">VERA framework (Variational Entropy-Regularized Allocation)</a>. This line of work seeks a foundational, axiomatic understanding of how learning, information frictions, and time constraints reshape economic decision-making in the machine learning era, connecting ideas from rational inattention, convex analysis, and optimal transport.
 
-Across these directions, Ziran tends to work in a <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">reflective and active</a> style: he likes to step back to identify what is structurally essential in a problem and then build models that are both mathematically precise and conceptually meaningful for the surrounding community—whether in probability, geometry, AI, or economics. He is especially interested in projects that create genuine bridges, for example between stochastic analysis and index theory, between random matrix limits and deep neural networks, or between entropy-based preferences and learning-aware economic behavior.
 
-Ziran enjoys open, exploratory collaboration and is happy to hear from students and researchers who see resonance with their own interests—or who simply want to explore unexpected connections between these areas.
+Bio.
+I am currently a postdoctoral researcher at the <a href="http://www.simis.cn/">Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)</a> and <a href="https://www.fudan.edu.cn/en/">Fudan University</a>. I received my Ph.D. in Operations Research from <a href="https://www.stern.nyu.edu/">NYU Stern</a>. Before that, I received an M.S. in mathematics (probability theory) at <a href="https://cims.nyu.edu/">NYU Courant</a>, and an M.S. in mathematics (differential geometry) at <a href="https://en.cim.nankai.edu.cn/">Chern Institute of Mathematics at Nankai University</a>. I earned my B.S. in pure mathematics from <a href="https://en.nankai.edu.cn/">Nankai University</a>.
+
+Acknowledgements.
+I am grateful to my Ph.D. advisors and committee members —
+<a href="[https://cims.nyu.edu/~bourgade/">Paul Bourgade</a>,
+<a href="https://people.stern.nyu.edu/plakner/">Peter Lakner</a>,
+<a href="https://pages.stern.nyu.edu/~jreed/">Josh Reed</a>,
+and <a href="https://math.nyu.edu/people/profiles/VARADHAN_SRS.html">S. R. S. Varadhan</a>—
+for their guidance and support. I am especially indebted to
+<a href="https://cims.nyu.edu/people/profiles/MCKEAN_Henry.html">Henry P. McKean</a>
+(<i>in memoriam</i>), whose mentorship continues to shape my work.
+
