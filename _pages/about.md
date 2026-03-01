@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Postdoctoral Researcher | Math &times; AI | <a href='http://www.simis.cn/'>SIMIS</a> & <a href='https://en.wikipedia.org/wiki/Fudan_University'>Fudan University</a>.
 
