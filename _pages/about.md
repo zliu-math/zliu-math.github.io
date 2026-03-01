@@ -38,7 +38,7 @@ My research is on both <span style="color: var(--global-theme-color); font-weigh
 
 
 Bio.
-I am currently a postdoctoral researcher at the <a href="http://www.simis.cn/">Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)</a> and <a href="https://iics.fudan.edu.cn/_s599/ywb/main.psp"> Research Institute of Intelligent Complex Systems, Fudan University</a>. I received my Ph.D. in Operations Research (Honored, Beta Gamma Sigma) from <a href="https://www.stern.nyu.edu/">NYU Stern</a>. Before that, I received an M.S. in mathematics (probability theory) at <a href="https://cims.nyu.edu/">NYU Courant</a>, and an M.S. in mathematics (differential geometry) at <a href="https://en.cim.nankai.edu.cn/">Chern Institute of Mathematics at Nankai University</a>. I graduated with B.S. in pure mathematics of the Honored Class of S. S. Chern at <a href="https://en.nankai.edu.cn/">Nankai University</a>.
+I am currently a postdoctoral researcher at the <a href="http://www.simis.cn/">Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)</a> and <a href="https://iics.fudan.edu.cn/_s599/ywb/main.psp"> Research Institute of Intelligent Complex Systems, Fudan University</a>. I received my Ph.D. in Operations Research (Honored, Beta Gamma Sigma) from <a href="https://www.stern.nyu.edu/">NYU Stern</a>. Before that, I received an M.S. in mathematics (probability theory) at <a href="https://cims.nyu.edu/">NYU Courant</a>, and an M.S. in mathematics (differential geometry) at <a href="https://en.cim.nankai.edu.cn/">Chern Institute of Mathematics at Nankai University</a>. I graduated with B.S. in pure mathematics (Honored, Class of S. S. Chern) at <a href="https://en.nankai.edu.cn/">Nankai University</a>.
 
 
 
