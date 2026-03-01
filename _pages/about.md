@@ -30,12 +30,16 @@ latest_posts:
 
 
 
-Ziran Liu's research sits at the intersection of AI (deep learning) and pure mathematics (probability, differential and discrete geometry). He is currently a postdoctoral researcher at the <a href="http://www.simis.cn/">Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)</a>, and <a href="https://www.fudan.edu.cn/en/">Fudan University</a>. He received his <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">Ph.D. in Operations Research</a> from <a href="https://www.stern.nyu.edu/">NYU Stern</a>, and <a href="https://cims.nyu.edu/">NYU Courant with M.S. in probability theory</a> and <a href="http://www.cim.nankai.edu.cn/">Nankai University’s Chern Institute with M.S. in differential geometry and B.S. in pure math</a>.
+My research is on both mathematics and AI, spanning math for AI and AI for math. Mathematically, my work is rooted in probability theory and differential geometry, and these also remain the central topics to my work in pure mathematics. I move in both directions: I develop new mathematics for AI, and I apply mathematical structure into methods for solving problem in learning theory — while also exploring how AI can contribute back to mathematics. My projects always come as dual programs: a foundational mathematical line that is motivated by AI and a companion AI track to apply the developed mathematics.
 
-Ziran’s work is driven by a recurring question: how do <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">randomness, geometric structure, and deep learning</a> interact in modern complex systems? On the mathematical side, he studies <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">diffusion models and reflected Brownian motion</a>, <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">Gaussian fields</a>, and <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">Dirac-type operators</a> on manifolds with boundary, technically on small-time asymptotics, the index-theoretic questions, and geometric invariants and how they drive foundational noise structure in <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">AI/Machine Learning/Deep Learning</a>. On the applied side, he works on models for queueing networks, Hawkes-driven random graphs, and diffusion-based generative systems, often aiming to understand the mathematics behind AI and complex systems.
 
-In parallel, Ziran is developing a longer-term program in <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">entropy-regularized decision and learning</a>, centered around his <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">VERA framework (Variational Entropy-Regularized Allocation)</a>. This line of work seeks a foundational, axiomatic understanding of how learning, information frictions, and time constraints reshape economic decision-making in the machine learning era, connecting ideas from rational inattention, convex analysis, and optimal transport.
 
-Across these directions, Ziran tends to work in a <a href="javascript:void(0)" style="cursor: text; text-decoration: none;">reflective and active</a> style: he likes to step back to identify what is structurally essential in a problem and then build models that are both mathematically precise and conceptually meaningful for the surrounding community—whether in probability, geometry, AI, or economics. He is especially interested in projects that create genuine bridges, for example between stochastic analysis and index theory, between random matrix limits and deep neural networks, or between entropy-based preferences and learning-aware economic behavior.
 
-Ziran enjoys open, exploratory collaboration and is happy to hear from students and researchers who see resonance with their own interests—or who simply want to explore unexpected connections between these areas.
+
+
+
+
+
+
+
+
