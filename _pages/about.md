@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Researcher in Math &times; AI at <a href='http://www.simis.cn/'>SIMIS</a> & Fudan University.
+subtitle: Postdoctoral Researcher | Math &times; AI | <a href='http://www.simis.cn/'>SIMIS</a> & <a href='https://en.wikipedia.org/wiki/Fudan_University'>Fudan University</a>.
 
 profile:
   align: right
@@ -30,7 +30,7 @@ latest_posts:
 
 
 
-My research is on both mathematics and AI, spanning math for AI and AI for math. Mathematically, my work is rooted in probability theory and differential geometry, and these also remain the central topics to my work in pure mathematics. I move in both directions: I develop new mathematics for AI, and I apply mathematical structure into methods for solving problem in learning theory — while also exploring how AI can contribute back to mathematics. My projects always come as dual programs: a foundational mathematical line that is motivated by AI and a companion AI track to apply the developed mathematics.
+My research is on both <span style="color:#1a73e8;">Mathematics and AI</span>, spanning <span style="color:#1a73e8;">math for AI</span> and <span style="color:#1a73e8;">AI for math</span>. Mathematically, my work is rooted in <span style="color:#1a73e8;">probability theory</span> and <span style="color:#1a73e8;">differential geometry</span>, and these also remain the central topics to my work in pure mathematics. I move in both directions: I develop new mathematics for AI, and I apply mathematical structure into methods for solving problem in learning theory — while also exploring how AI can contribute back to mathematics. My projects always come as dual programs: a foundational mathematical line that is motivated by AI and a companion AI track to apply the developed mathematics.
 
 
 
