@@ -3,6 +3,7 @@
 layout: publications
 title: Research
 permalink: /publications/
+description:A selection of works at the interface of probabiluty theory, differential geometry, and deep learning, aiming to bridge pure mathematical theory and AI foundations.
 nav: true
 nav_order: 2
 ---
