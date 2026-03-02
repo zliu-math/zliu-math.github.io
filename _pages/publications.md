@@ -4,7 +4,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: A selection of works at the interface of probabiluty theory, differential geometry, and deep learning, aiming to bridge 
+description: ”“
 nav: true
 nav_order: 2
 ---
