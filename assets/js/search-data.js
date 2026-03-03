@@ -440,6 +440,11 @@ ninja.data = [{
           description: "这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/my_work/";
+            },},{id: "projects-我的核心项目",
+          title: '我的核心项目',
+          description: "这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/subMG_RBM/";
             },},{
         id: 'social-email',
         title: 'email',
