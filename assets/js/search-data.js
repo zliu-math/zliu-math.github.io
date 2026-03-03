@@ -405,7 +405,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-我的核心项目",
+          title: '我的核心项目',
+          description: "这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/my_work/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
