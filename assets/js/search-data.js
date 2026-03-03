@@ -427,7 +427,7 @@ ninja.data = [{
               window.location.href = "/projects/Jacobian/";
             },},{id: "projects-approaching-prescribed-gaussian-curvature-by-discrete-conformality",
           title: 'Approaching Prescribed Gaussian Curvature by Discrete Conformality',
-          description: "A convex-optimization, discrete-conformal method to approximate solutions of the prescribed Gaussian curvature problem on closed genus&gt;1 surfaces, with provable convergence.",
+          description: "A convex-variational, discrete-conformal method that approximates the conformal factor solving the prescribed Gaussian curvature equation on closed genus &gt; 1 surfaces, with a sharp first-order convergence guarantee.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PresGauCur/";
             },},{id: "projects-我的核心项目",
