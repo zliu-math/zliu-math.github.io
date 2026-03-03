@@ -440,9 +440,9 @@ ninja.data = [{
           description: "这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TwoQueues/";
-            },},{id: "projects-rigorous-analysis-of-submartingale-problems-in-wedge-domains",
-          title: 'Rigorous Analysis of Submartingale Problems in Wedge Domains',
-          description: "A study on the existence, uniqueness, and path properties of Reflected Brownian Motion (RBM) in non-smooth domains.",
+            },},{id: "projects-submartingale-problem-for-reflected-brownian-motion",
+          title: 'Submartingale Problem for Reflected Brownian Motion',
+          description: "A study on the existence, uniqueness, and path properties of RBM in wedge domains via the Varadhan-Williams submartingale formulation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/subMG_RBM/";
             },},{
