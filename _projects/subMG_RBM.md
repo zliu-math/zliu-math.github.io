@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Submartingale Problem for Reflected Brownian Motion
+title: Submartingale Problem for RBM with Drift in a Wedge
 description: A study on the existence, uniqueness, and path properties of RBM in wedge domains via the Varadhan-Williams submartingale formulation.
 img: assets/img/rbm.png
 importance: 1
