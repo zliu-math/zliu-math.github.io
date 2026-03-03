@@ -1,8 +1,11 @@
 ---
 layout: page
 title: Gaussian Chaos Noise (GCh)
-description: A completed project on first-principles noise design for reliable deep learning—deriving a canonical correlation kernel (Green’s function) and a mean-preserving positive multiplicative gate from variational desiderata.
-img: assets/img/gch.png
+description: ## Abstract
+
+We develop a first-principles variational framework for noise injection that treats noise as a **design object**: instead of selecting an exogenous heuristic (e.g., i.i.d. dropout or hard masking), the noise structure is derived from minimal, task-driven desiderata encoded as variational optimality conditions. We refer to this design framework as the **Variational Kernel Design (VKD)**, since it characterizes not only a noise distribution but also the correlation geometry (kernel) implied by the constraints.
+
+Instantiating VKD under standard requirements for spatial perturbations yields **Gaussian Chaos Noise (GCh)**: a mean-preserving positive multiplicative gate given by Wick-normalized exponentiation of a Laplacian/Green-correlated Gaussian field, with the Green kernel emerging as the canonical correlation structure from optimality. This answers a basic but under-addressed question: *what correlation structure should the "right" noise have* for a given representation under natural constraints? The resulting noise is scale-tolerant, geometrically stable, and well-suited to late semantic stages where long-range coherence makes hard discontinuities brittle. 
 importance: 1
 category: Research
 ---
