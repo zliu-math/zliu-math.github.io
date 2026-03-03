@@ -21,9 +21,9 @@ At a high level, we treat depth not only as “more layers,” but as a **geomet
 We focus on a few concrete, geometry-first questions:
 
 1. **Metric induced by the Jacobian chain.** For a network map $f:\mathcal{X}\to\mathcal{Y}$, the pullback metric
-   $$
-   g_x \;\;=\;\; (Df(x))^\top Df(x)
-   $$
+   $
+   g_x = (Df(x))^\top Df(x)
+   $
    defines a Riemannian geometry on $\mathcal{X}$ (and analogously on feature manifolds across depth).  
    **How does $g_x$ evolve with depth and training?** What invariants are stable?
 
