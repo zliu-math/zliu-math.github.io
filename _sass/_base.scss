@@ -1496,3 +1496,9 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+/* 缩小 Project 页面卡片标题的字体大小 */
+.projects .card .card-title {
+    font-size: 1.3rem !important; 
+    line-height: 1.2 !important;  
+    margin-bottom: 10px !important; 
+}
