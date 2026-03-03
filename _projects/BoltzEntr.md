@@ -1,17 +1,281 @@
 ---
 layout: page
-title: 我的核心项目 # 这里是卡片的大标题
-description: 这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。 # 封面显示的简介
-img: assets/img/12.jpg # 刚才准备的图片路径
-importance: 1 # 数字越小，在 work 下排位越靠前
-category: work # 关键！必须写 work，它才会出现在你图片里看到的那个 work 标题下
+title: Symmetry, Reduction, and Entropy in Deep Networks
+description: A geometric–statistical physics foundation for deep learning, from linear solvable limits to nonlinear depth-scaling laws.
+img: assets/img/symmetry_entropy.png
+importance: 1
+category: Research
 ---
 
-### 项目详情介绍 (点击卡片后可见)
+## Project Overview
 
-在这里你可以写更详细的解释：
-1. **研究背景**：描述为什么做这个项目。
-2. **核心技术**：比如使用了哪些随机过程或微分几何的工具。
-3. **当前进度**：正在进行中还是已完成。
+This project develops a **geometric and statistical–mechanical foundation for deep learning** built on the structural chain
 
-[查看 GitHub 源码](https://github.com/zliu-math)
+Symmetry → Moment Map → Reduction → Entropy → Free Energy → Scaling Laws.
+
+The starting point is a fully solvable linear limit — **Deep Linear Networks (DLNs)** — where symmetry is explicit and entropy can be computed from orbit volumes.
+
+From this solvable template, we construct a nonlinear extension for realistic deep networks (e.g. equivariant models and residual networks), aiming to derive:
+
+- Gauge-invariant macroscopic observables  
+- Microstate entropy formulas  
+- Free-energy selection principles  
+- Infinite-depth scaling laws  
+- Deployable stability mechanisms  
+
+The objective is not to analyze a special architecture, but to build a **first-principles structural theory of depth**.
+
+---
+
+# Layer I — DLN as a Solvable Structural Baseline
+
+For a depth-$L$ linear network
+
+$$
+X = W_L \cdots W_1,
+$$
+
+the parameter space carries a natural gauge symmetry:
+
+$$
+(W_L,\dots,W_1)
+\mapsto
+(W_L Q_{L-1}, Q_{L-1}^{-1} W_{L-1} Q_{L-2}, \dots, Q_1^{-1} W_1),
+$$
+
+leaving $X$ invariant.
+
+This structure induces:
+
+- A moment map (balanced condition)
+- A reduced manifold (balanced slice)
+- Microstates
+
+$$
+\mathcal O_X = \{ \theta : \Phi(\theta) = X \}
+$$
+
+- Entropy
+
+$$
+S(X) = \log \operatorname{vol}(\mathcal O_X)
+$$
+
+- Free energy
+
+$$
+F_\beta(X) = E(X) - \beta^{-1} S(X)
+$$
+
+### Current Linear-Level Results
+
+- Explicit identification of gauge symmetry.
+- Characterization of balanced manifolds.
+- Entropy formulas in special slices.
+- Two core open problems:
+  - General moment-map levels ($G \neq 0$)
+  - Infinite-depth renormalization ($L \to \infty$)
+
+This layer serves as a structural template — not as the final theory.
+
+---
+
+# Layer II — Nonlinear Extension: Core Open Problems
+
+The central research effort is to extend the symmetry–entropy mechanism to nonlinear deep networks.
+
+---
+
+## OP1 — Nonlinear Gauge Geometry
+
+For nonlinear architectures (e.g. $O(d)$-equivariant networks or ResNets):
+
+- What is the correct gauge group?
+- Does a nonlinear moment map exist?
+- Can we define a balanced slice?
+
+Requirement:
+The nonlinear theory must strictly reduce to DLN when nonlinearities vanish.
+
+---
+
+## OP2 — Macroscopic Observables Beyond Linear $X$
+
+In nonlinear networks, $X$ alone is insufficient.
+
+We study:
+
+- Jacobian SPD observables
+
+$$
+g_x = (Df(x))^\top Df(x)
+$$
+
+- Log-singular-value distributions
+- Representation covariance flows
+
+Goal:
+Identify gauge-invariant observables that capture representation geometry.
+
+---
+
+## OP3 — Nonlinear Microstates and Entropy
+
+Define
+
+$$
+\mathcal O_y = \{ \theta : \Phi(\theta) = y \}
+$$
+
+Questions:
+
+- Is $\mathcal O_y$ an orbit?
+- Or a symplectic reduced space?
+- Can entropy be computed via reduction formulas?
+- Does Duistermaat–Heckman density structure appear?
+
+---
+
+## OP4 — General Moment-Map Levels ($G \neq 0$)
+
+Beyond balanced slices:
+
+- What is the entropy at general moment levels?
+- Does reduced volume become piecewise polynomial?
+- Can non-abelian localization apply?
+
+This extends orbit volume computation to full reduction volume computation.
+
+---
+
+## OP5 — Infinite-Depth Renormalization
+
+As $L \to \infty$:
+
+- Does the Jacobian chain converge (after scaling)?
+- Does entropy admit a spectral determinant representation?
+- What are convergence rates?
+
+This is the multi-scale limit problem.
+
+---
+
+## OP6 — Free Energy Selection Principle
+
+Under noisy training dynamics:
+
+Is the macroscopic evolution approximately
+
+$$
+\dot y = - \nabla (E - \beta^{-1} S) ?
+$$
+
+If yes:
+
+- Implicit bias becomes computable.
+- Flat-minima selection gains geometric explanation.
+
+---
+
+## OP7 — Weyl-Chamber Diffusion of Jacobian Spectra
+
+For deep residual chains:
+
+$$
+Df(x) = J_L \cdots J_1
+$$
+
+As $L \to \infty$:
+
+- Do log-singular values converge to diffusion in a Weyl chamber?
+- What are drift and diffusion coefficients?
+- Are there universal scaling laws?
+
+Depth becomes a geometric scale parameter.
+
+---
+
+# Layer III — Deliverables for Deep Learning
+
+If successful, the program produces:
+
+### 1. Geometry-Designed Noise Mechanisms
+
+Noise kernels forced by symmetry and constraints.
+Depth-dependent scaling laws.
+Improved calibration and robustness.
+
+---
+
+### 2. Computable Implicit Bias
+
+Entropy becomes explicit.
+Solution selection becomes predictable.
+Entropy-regularized training becomes principled.
+
+---
+
+### 3. Depth Scaling Laws
+
+Expected relations of the form:
+
+- Noise strength ∼ 1/L or 1/√L
+- Mixing time ∼ L²
+- Log-spectrum variance ∼ L
+
+These guide architectural depth decisions.
+
+---
+
+### 4. Training Diagnostics
+
+Measurable geometric quantities:
+
+- Jacobian SPD as geometric temperature
+- Moment-map imbalance as gauge instability
+- Spectral gap statistics as entropy indicators
+
+---
+
+### 5. Unified Conceptual Framework
+
+Dropout, normalization, noise injection, implicit bias, depth scaling —
+
+all interpreted through:
+
+Symmetry + Reduction + Entropy + Free Energy + Scale.
+
+---
+
+# Structural Roadmap
+
+Symmetry  
+→ Moment Map  
+→ Reduction  
+→ Microstates  
+→ Entropy  
+→ Free Energy  
+→ Selection Principle  
+→ Scaling Laws  
+→ Design Principles  
+
+---
+
+## Selected References
+
+- Menon & Yu — *Entropy and Symmetry in Deep Linear Networks*  
+- Poole et al., NeurIPS 2016  
+- Schoenholz et al., ICLR 2017  
+- Amari — *Information Geometry*  
+- Duistermaat & Heckman (1982)  
+- Witten (1982)  
+- Bronstein et al. — *Geometric Deep Learning*  
+
+---
+
+This program aims to build a first-principles geometric theory of depth that is:
+
+- Exactly solvable in the linear limit  
+- Extensible to nonlinear networks  
+- Predictive in scaling behavior  
+- Deployable for stability and reliability  
