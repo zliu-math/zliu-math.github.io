@@ -3,7 +3,7 @@ layout: page
 title: Symmetry, Reduction, and Entropy in Deep Networks
 description: A geometric–statistical physics foundation for deep learning, from linear solvable limits to nonlinear depth-scaling laws.
 img: assets/img/symmetry_entropy.png
-importance: 1
+importance: 4
 category: Research
 ---
 
@@ -263,13 +263,41 @@ Symmetry
 
 ## Selected References
 
-- Menon & Yu — *Entropy and Symmetry in Deep Linear Networks*  
-- Poole et al., NeurIPS 2016  
-- Schoenholz et al., ICLR 2017  
-- Amari — *Information Geometry*  
-- Duistermaat & Heckman (1982)  
-- Witten (1982)  
-- Bronstein et al. — *Geometric Deep Learning*  
+- **Menon, Govind & Yu, Wenxuan.**  
+  *Entropy and Symmetry in Deep Linear Networks.*  
+  arXiv preprint (2023).
+
+- **Poole, Ben; Lahiri, Subhaneil; Raghu, Maithra; Sohl-Dickstein, Jascha; Ganguli, Surya.**  
+  *Exponential Expressivity in Deep Neural Networks Through Transient Chaos.*  
+  Advances in Neural Information Processing Systems (NeurIPS), 2016.
+
+- **Schoenholz, Samuel S.; Gilmer, Justin; Ganguli, Surya; Sohl-Dickstein, Jascha.**  
+  *Deep Information Propagation.*  
+  International Conference on Learning Representations (ICLR), 2017.
+
+- **Amari, Shun-ichi.**  
+  *Information Geometry and Its Applications.*  
+  Springer, 2016.
+
+- **Duistermaat, Johannes J.; Heckman, Gert J.**  
+  *On the Variation in the Cohomology of the Symplectic Form of the Reduced Phase Space.*  
+  Inventiones Mathematicae, 69 (1982), 259–268.
+
+- **Witten, Edward.**  
+  *Supersymmetry and Morse Theory.*  
+  Journal of Differential Geometry, 17 (1982), 661–692.
+
+- **Bronstein, Michael M.; Bruna, Joan; Cohen, Taco; Veličković, Petar.**  
+  *Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges.*  
+  arXiv:2104.13478 (2021).
+
+- **Marsden, Jerrold E.; Weinstein, Alan.**  
+  *Reduction of Symplectic Manifolds with Symmetry.*  
+  Reports on Mathematical Physics, 5 (1974), 121–130.
+
+- **Bismut, Jean-Michel.**  
+  *Large Deviations and the Malliavin Calculus.*  
+  Progress in Mathematics, Birkhäuser, 1984.
 
 ---
 
