@@ -420,8 +420,8 @@ ninja.data = [{
           description: "A first-principles variational framework for noise injection where noise structure is derived from task-driven desiderata. This yields Gaussian Chaos Noise (GCh), a scale-tolerant multiplicative gate with canonical Green-kernel correlation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GCh/";
-            },},{id: "projects-nonlinear-jacobian-chain-geometry",
-          title: 'Nonlinear Jacobian Chain Geometry',
+            },},{id: "projects-geometry-of-the-nonlinear-jacobian-chain-the-model-of-resnet-and-transformers",
+          title: 'Geometry of the Nonlinear Jacobian Chain (The Model of ResNet and Transformers)',
           description: "A project on the Riemannian geometry induced by Jacobian chains in deep nonlinear networks—linking depth, curvature, stability, and trainability.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Jacobian/";
