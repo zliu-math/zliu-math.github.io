@@ -440,9 +440,9 @@ ninja.data = [{
           description: "这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TwoQueues/";
-            },},{id: "projects-我的核心项目",
-          title: '我的核心项目',
-          description: "这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。",
+            },},{id: "projects-reflected-brownian-motion-with-drift-in-a-wedge",
+          title: 'Reflected Brownian Motion with Drift in a Wedge',
+          description: "A study on the existence, uniqueness, and Feller properties of RBM with constant drift in planar wedges, resolving long-standing open problems in the submartingale formulation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/subMG_RBM/";
             },},{
