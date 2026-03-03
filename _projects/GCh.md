@@ -7,7 +7,6 @@ importance: 1
 category: Research
 ---
 
-> **Status:** Completed (paper-level deliverable). Project paper PDF.
 
 ## Project Overview
 
