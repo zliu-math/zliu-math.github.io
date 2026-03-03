@@ -3,7 +3,7 @@ layout: page
 title: Approaching Prescribed Gaussian Curvature by Discrete Conformality
 description: A convex-optimization, discrete-conformal method to approximate solutions of the prescribed Gaussian curvature problem on closed genus>1 surfaces, with provable convergence.
 img: assets/img/prescribed_curvature.png
-importance: 1
+importance: 3
 category: Research
 ---
 
