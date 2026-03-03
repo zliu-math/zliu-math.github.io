@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Approaching Prescribed Gaussian Curvature by Discrete Conformality
+title: APrescribed Gaussian Curvature by Discrete Conformality
 description: A convex-variational, discrete-conformal method that approximates the conformal factor solving the prescribed Gaussian curvature equation on closed genus > 1 surfaces, with a sharp first-order convergence guarantee.
 img: assets/img/PresGauCur.png
 importance: 3
