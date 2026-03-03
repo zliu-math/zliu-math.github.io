@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Completed and Ongoinig Research Projects
+description: Projects of Research and Patents
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Research, Patents]
 horizontal: false
 ---
 
