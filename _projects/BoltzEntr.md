@@ -2,7 +2,7 @@
 layout: page
 title: Symmetry, Reduction, and Entropy in Deep Networks
 description: A geometric–statistical physics foundation for deep learning, from linear solvable limits to nonlinear depth-scaling laws.
-img: assets/img/SymEntrScal.png
+img: assets/img/SymEntrScalNew.png
 importance: 4
 category: Research
 ---
