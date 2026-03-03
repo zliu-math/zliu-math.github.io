@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Geometry of the Nonlinear Jacobian Chain (The Model of ResNet and Transformers)
+title:  Geometry of the Nonlinear Jacobian Chain (The Methematical Model of ResNet and Transformers)
 description: A project on the Riemannian geometry induced by Jacobian chains in deep nonlinear networks—linking depth, curvature, stability, and trainability.
 img: assets/img/JacobianNew.png
 importance: 2
