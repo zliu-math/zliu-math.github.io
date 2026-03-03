@@ -1,56 +1,57 @@
 ---
 layout: page
-title: Rigorous Analysis of Submartingale Problems in Wedge Domains
-description: A study on the existence, uniqueness, and path properties of Reflected Brownian Motion (RBM) in non-smooth domains.
+title: Submartingale Problem for Reflected Brownian Motion
+description: A study on the existence, uniqueness, and path properties of RBM in wedge domains via the Varadhan-Williams submartingale formulation.
 img: assets/img/rbm.png
-importance: 2
+importance: 1
 category: Research
 ---
 
-### 1. Problem Formulation 
+### 1. Problem Formulation: The Submartingale Approach 
 
-This project investigates the **Submartingale Problem** for a d-dimensional diffusion process $Z$ in a constrained geometric domain $\mathcal{S}$ (specifically a wedge in $\mathbb{R}^2$ with opening angle $\xi$). Formally, given a constant drift vector $\mu$ and reflection directions $v_1, v_2$ on the boundaries $\partial \mathcal{S}_1, \partial \mathcal{S}_2$, the process is characterized by the following stochastic dynamics:
+Unlike the standard SDE approach, we define **Reflected Brownian Motion (RBM)** in a wedge domain $\mathcal{S}$ through the **Submartingale Problem**. Given a drift vector $\mu$ and reflection directions $v_1, v_2$ on the boundaries, we seek a family of probability measures $\{\mathbb{P}_z\}_{z \in \mathcal{S}}$ such that for any test function $f \in C_b^2(\mathcal{S})$ satisfying the oblique derivative boundary conditions:
 
-$$dZ_t = \mu dt + dB_t + \sum_{i=1}^2 v_i dL^i_t$$
+$$\langle \nabla f, v_i \rangle \geq 0 \quad \text{on } \partial \mathcal{S}_i, \quad i=1,2$$
 
-where $B_t$ is a standard Brownian motion and $L^i_t$ are the **local times** associated with the boundaries. The central challenge lies in the non-smooth nature of the vertex, where the reflection directions may create singularities that compromise the existence and uniqueness of the solution.
+the following process $M_f$ is a **$\mathbb{P}_z$-submartingale**:
+
+$$M_f(t) = f(Z_t) - \int_0^t \mathcal{L}f(Z_s) ds, \quad t \ge 0$$
+
+where $\mathcal{L} = \frac{1}{2}\Delta + \mu \cdot \nabla$ is the infinitesimal generator of the diffusion.
+
+
 
 ---
 
-### 2. Methodology 
+### 2. Methodology: Geometric Conformal Invariants 
 
-We utilize the **Varadhan-Williams framework** for submartingale problems, which bypasses the limitations of strong SDE solutions in non-Lipschitz domains. Our analytical approach involves:
-
-* **Conformal Mapping**: Transforming the wedge domain into a half-plane to simplify the boundary operator.
-* **Lyapunov Functions**: Constructing specific functions $f \in C_b^2(\mathcal{S})$ that satisfy the oblique derivative condition $\langle \nabla f, v_i \rangle \geq 0$ to test the submartingale property.
-* **Skew-Symmetry Analysis**: Analyzing the geometric parameter $\alpha = (\theta_1 + \theta_2)/\xi$, where $\theta_i$ are the angles of reflection measured from the inward normals.
+The core of our methodology relies on analyzing the **geometric skew-symmetry** of the domain. 
+* **Conformal Transformation**: We map the wedge $\mathcal{S}$ with opening angle $\xi$ to a half-plane, allowing us to simplify the boundary operator into a single spectral parameter $\alpha$.
+* **$\alpha$-Parameterization**: The parameter $\alpha = (\theta_1 + \theta_2)/\xi$ (where $\theta_i$ are reflection angles from inward normals) serves as the fundamental descriptor of the process's behavior at the vertex.
+* **Construction of Lyapunov Functions**: We construct specific power-type functions to test the boundaries of the submartingale property and establish hitting time estimates.
 
 ---
 
 ### 3. Research Objectives 
 
-The primary goals of this program are:
-
-1.  **Existence-Uniqueness Thresholds**: To determine the critical value of $\alpha$ beyond which the submartingale problem becomes ill-posed.
-2.  **Path Property Classification**: To distinguish between regimes where $Z$ is a semimartingale and where it exhibits infinite variation near the vertex.
-3.  **Vertex Behavior**: To provide a rigorous probabilistic proof of whether the vertex is an **attainable trap** or a **reflecting point** under specific drift configurations.
+1.  **Existence-Uniqueness Phase Diagram**: To rigorously determine the thresholds for $\alpha$ under which the submartingale problem is well-posed.
+2.  **Pathological Boundary Analysis**: To classify the regularity of the sample paths as they interact with the non-smooth vertex.
+3.  **Vertex Attainability**: To prove whether the process can reach the vertex in finite time and whether it is absorbed or reflected.
 
 ---
 
-### 4. Key Results 
+### 4. Key Results & Theorems 
 
-Our research established several high-impact results in the field of stochastic analysis:
+Our work establishes the complete sharp criteria for RBM in wedge domains:
 
-* **The $\alpha < 2$ Criterion**: We proved that the submartingale problem possesses a unique strong solution if and only if the geometric parameter satisfies $\alpha < 2$.
-* **Non-Semimartingale Transition**: We identified that for $1 \leq \alpha < 2$, the process $Z$ is **not a semimartingale**. In this regime, the local time processes $L^i$ do not have finite variation, although $Z$ remains a Dirichlet process.
-* **Vertex Absorption Conditions**: We derived explicit conditions on the drift $\mu$ that determine the vertex hitting probability $P(\tau_0 < \infty)$, establishing that the vertex acts as a trap when the drift is sufficiently inward-pointing.
-
-
+* **Existence and Uniqueness**: We prove that a unique solution to the submartingale problem exists if and only if **$\alpha < 2$**.
+* **The Semimartingale Threshold**: We establish that for $1 \le \alpha < 2$, the process $Z$ is **not a semimartingale**. In this regime, the reflection "force" is so singular that the local time processes $L^i$ exert infinite variation near the vertex.
+* **Vertex as a Trap**: We provide necessary and sufficient conditions for the vertex to be a **trap** (absorbing point) based on the alignment of the drift $\mu$ and the reflection vectors $v_i$.
 
 ---
 
 ### Selected References
 
 * **Lakner, P., Liu, Z., & Reed, J.** (2023). *Reflected Brownian motion with drift in a wedge.* Queueing Systems.
-* **Varadhan, S. R. S., & Williams, R. J.** (1985). *Diffusions in regions with boundaries.*
-* **Williams, R. J.** (1987). *Reflected Brownian motion with skew reflection.*
+* **Varadhan, S. R. S., & Williams, R. J.** (1985). *Diffusions in regions with boundaries*.
+* **Williams, R. J.** (1987). *Reflected Brownian motion with skew reflection*.
