@@ -4,7 +4,7 @@ title: Nonlinear Jacobian Chain Geometry
 description: A project on the Riemannian geometry induced by Jacobian chains in deep nonlinear networks—linking depth, curvature, stability, and trainability.
 img: assets/img/jacobian.png
 importance: 1
-category: work
+category: Research
 ---
 
 ### Project Overview
