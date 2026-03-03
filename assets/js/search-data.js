@@ -420,6 +420,11 @@ ninja.data = [{
           description: "这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GCh/";
+            },},{id: "projects-nonlinear-jacobian-chain-geometry",
+          title: 'Nonlinear Jacobian Chain Geometry',
+          description: "A project on the Riemannian geometry induced by Jacobian chains in deep nonlinear networks—linking depth, curvature, stability, and trainability.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Jacobian/";
             },},{id: "projects-我的核心项目",
           title: '我的核心项目',
           description: "这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。",
@@ -435,11 +440,6 @@ ninja.data = [{
           description: "这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TwoQueues/";
-            },},{id: "projects-nonlinear-jacobian-chain-geometry",
-          title: 'Nonlinear Jacobian Chain Geometry',
-          description: "A project on the Riemannian geometry induced by Jacobian chains in deep nonlinear networks—linking depth, curvature, stability, and trainability.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/my_work/";
             },},{id: "projects-我的核心项目",
           title: '我的核心项目',
           description: "这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。",
