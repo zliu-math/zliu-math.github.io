@@ -20,48 +20,43 @@ At a high level, we treat depth not only as “more layers,” but as a **geomet
 
 We focus on a few concrete, geometry-first questions:
 
-1. **Metric induced by the Jacobian chain.**  
-   For a network map \(f:\mathcal{X}\to\mathcal{Y}\), the pullback metric
-   \[
+1. **Metric induced by the Jacobian chain.** For a network map $f:\mathcal{X}\to\mathcal{Y}$, the pullback metric
+   $$
    g_x \;\;=\;\; (Df(x))^\top Df(x)
-   \]
-   defines a Riemannian geometry on \(\mathcal{X}\) (and analogously on feature manifolds across depth).  
-   **How does \(g_x\) evolve with depth and training?** What invariants are stable?
+   $$
+   defines a Riemannian geometry on $\mathcal{X}$ (and analogously on feature manifolds across depth).  
+   **How does $g_x$ evolve with depth and training?** What invariants are stable?
 
-2. **Dynamical isometry and beyond.**  
-   Classical trainability heuristics aim for “well-conditioned” Jacobians at initialization.  
+2. **Dynamical isometry and beyond.** Classical trainability heuristics aim for “well-conditioned” Jacobians at initialization.  
    **Can we formulate trainability as a geometric condition** (e.g., bounded distortion, controlled curvature, or near-isometric transport across depth), and track when/why it fails?
 
-3. **Curvature as a descriptor of representation.**  
-   If the metric field becomes highly anisotropic, curved, or singular in regions of data support, the network can exhibit brittle behavior.  
+3. **Curvature as a descriptor of representation.** If the metric field becomes highly anisotropic, curved, or singular in regions of data support, the network can exhibit brittle behavior.  
    **Which curvature-like quantities correlate with robustness / generalization?** Can they be turned into measurable diagnostics or regularizers?
 
-4. **Nonlinearity and compositional geometry.**  
-   In nonlinear networks (e.g., residual blocks), \(Df(x)\) is data-dependent and spatially varying.  
+4. **Nonlinearity and compositional geometry.** In nonlinear networks (e.g., residual blocks), $Df(x)$ is data-dependent and spatially varying.  
    **How does nonlinearity generate curvature**, even if each layer is “locally simple”?
 
 ---
 
 ### Mathematical Objects We Use
 
-**Jacobian chain (end-to-end differential).**  
-For a depth-\(L\) composition \(f = f_L \circ \cdots \circ f_1\),
-\[
+**Jacobian chain (end-to-end differential).** For a depth-$L$ composition $f = f_L \circ \cdots \circ f_1$,
+$$
 Df(x) = J_L(h_{L-1}) \cdots J_1(x),
 \quad J_\ell(\cdot)=D f_\ell(\cdot).
-\]
+$$
 
 **Pullback metric / distortion.**
-\[
+$$
 g_x = (Df(x))^\top Df(x), \qquad 
 \text{distortion}(x)\sim \kappa(Df(x)) \ \text{or} \ \sigma_{\max}/\sigma_{\min}.
-\]
+$$
 
 **Geometric statistics (local, data-dependent).**
-- singular value spectrum of \(Df(x)\) along data,
-- log-volume change \(\log\det(Df(x)^\top Df(x))\),
+- singular value spectrum of $Df(x)$ along data,
+- log-volume change $\log\det(Df(x)^\top Df(x))$,
 - curvature proxies (e.g., variation of the metric field along geodesics / data trajectories),
-- Fisher-type metrics on parameters (when appropriate): \(G(\theta)\approx \mathbb{E}[ \nabla_\theta \log p_\theta \nabla_\theta \log p_\theta^\top]\).
+- Fisher-type metrics on parameters (when appropriate): $G(\theta)\approx \mathbb{E}[ \nabla_\theta \log p_\theta \nabla_\theta \log p_\theta^\top]$.
 
 ---
 
@@ -70,13 +65,13 @@ g_x = (Df(x))^\top Df(x), \qquad
 **Stage A — Formalization (done / ongoing).**
 - A clean definition of the **Jacobian-chain–induced geometry** on inputs and intermediate feature spaces.
 - A dictionary connecting:
-  - “signal propagation / gradient propagation” ↔ metric distortion,
-  - “exploding/vanishing gradients” ↔ degeneracy of \(g_x\),
-  - “trainability windows” ↔ spectral concentration of Jacobian products.
+  - “signal propagation / gradient propagation” $\leftrightarrow$ metric distortion,
+  - “exploding/vanishing gradients” $\leftrightarrow$ degeneracy of $g_x$,
+  - “trainability windows” $\leftrightarrow$ spectral concentration of Jacobian products.
 
 **Stage B — Theory-guided diagnostics (ongoing).**
 - Practical metrics computed on real networks/data:
-  - spectra of \(Df(x)\) across depth and training time,
+  - spectra of $Df(x)$ across depth and training time,
   - volume distortion and anisotropy indices,
   - stability signatures under perturbations (input noise / weight noise / data augmentation).
 - Empirical protocols to correlate these with:
@@ -98,8 +93,7 @@ g_x = (Df(x))^\top Df(x), \qquad
 2. **Curvature-and-generalization hypothesis** (testable):  
    identify curvature proxies that predict robustness/generalization better than Jacobian conditioning alone.
 
-3. **From diagnostics to interventions:**  
-   turn geometry quantities into training objectives (regularizers) or architectural design rules.
+3. **From diagnostics to interventions:** turn geometry quantities into training objectives (regularizers) or architectural design rules.
 
 ---
 
@@ -109,18 +103,15 @@ g_x = (Df(x))^\top Df(x), \qquad
 - Schoenholz, Gilmer, Ganguli, Sohl-Dickstein. *Deep Information Propagation*. ICLR (2017).
 - Poole, Lahiri, Raghu, Sohl-Dickstein, Ganguli. *Exponential expressivity in deep neural networks through transient chaos*. NeurIPS (2016).
 - Pennington, Schoenholz, Ganguli. *Resurrecting the Sigmoid in Deep Learning through Dynamical Isometry*. NeurIPS (2017).
-- Xiao, Bahri, Sohl-Dickstein, Schoenholz, Pennington. *Dynamical Isometry and a Mean Field Theory of RNNs: Gating Enables Signal Propagation in Recurrent Neural Networks*. ICML/NeurIPS-era works (see authors’ related papers).
 
 **Information geometry / natural gradient / Fisher metrics**
 - Amari. *Natural Gradient Works Efficiently in Learning*. Neural Computation (1998).
 - Amari. *Information Geometry and Its Applications*. Springer (2016).
 - Martens. *New insights and perspectives on the natural gradient method*. arXiv (2014).
-- Grosse & Martens. *A Kronecker-factored approximate Fisher matrix for convolution layers*. ICML (2016) (K-FAC line).
 
-**Riemannian optimization and matrix-manifold geometry (tooling layer)**
+**Riemannian optimization and matrix-manifold geometry**
 - Absil, Mahony, Sepulchre. *Optimization Algorithms on Matrix Manifolds*. Princeton (2008).
 - Bonnabel. *Stochastic gradient descent on Riemannian manifolds*. IEEE TAC (2013).
-- Edelman, Arias, Smith. *The geometry of algorithms with orthogonality constraints*. SIAM J. Matrix Anal. Appl. (1998).
 
 **Broader geometric deep learning context**
 - Bronstein, Bruna, Cohen, Veličković. *Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges*. (Survey, 2021).
