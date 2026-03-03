@@ -405,8 +405,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-symmetry-reduction-and-entropy-in-deep-networks",
-          title: 'Symmetry, Reduction, and Entropy in Deep Networks',
+          section: "News",},{id: "projects-symmetry-reduction-and-entropy-in-deep-neural-networks",
+          title: 'Symmetry, Reduction, and Entropy in Deep Neural Networks',
           description: "A geometric–statistical physics foundation for deep learning, from linear solvable limits to nonlinear depth-scaling laws.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/BoltzEntr/";
