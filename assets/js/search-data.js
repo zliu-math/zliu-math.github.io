@@ -425,9 +425,9 @@ ninja.data = [{
           description: "A project on the Riemannian geometry induced by Jacobian chains in deep nonlinear networks—linking depth, curvature, stability, and trainability.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Jacobian/";
-            },},{id: "projects-prescribed-gaussian-curvature-by-discrete-conformality",
-          title: 'Prescribed Gaussian Curvature by Discrete Conformality',
-          description: "A convex-variational, discrete-conformal method that approximates the conformal factor solving the prescribed Gaussian curvature equation on closed genus &gt; 1 surfaces, with a sharp first-order convergence guarantee.",
+            },},{id: "projects-",
+          title: '',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PresGauCur/";
             },},{id: "projects-我的核心项目",
