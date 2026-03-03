@@ -442,7 +442,7 @@ ninja.data = [{
               window.location.href = "/projects/TwoQueues/";
             },},{id: "projects-submartingale-problem-for-rbm-with-drift-in-a-wedge",
           title: 'Submartingale Problem for RBM with Drift in a Wedge',
-          description: "A study on the existence, uniqueness, and path properties of RBM in wedge domains via the Varadhan-Williams submartingale formulation.",
+          description: "We study reflecting Brownian motion with drift constrained to a wedge in the plane. Our first set of results provide necessary and suﬃcient conditions for existence and uniqueness of a solution to the corresponding submartingale problem with drift, and show that its solution possesses the Markov and Feller properties. Next, we study a version of the problem with absorption at the vertex of the wedge. In this case, we provide a condition for existence and uniqueness of a solution to the problem and some results on the probability of the vertex being reached.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/subMG_RBM/";
             },},{
