@@ -440,8 +440,8 @@ ninja.data = [{
           description: "这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TwoQueues/";
-            },},{id: "projects-submartingale-problem-for-reflected-brownian-motion",
-          title: 'Submartingale Problem for Reflected Brownian Motion',
+            },},{id: "projects-submartingale-problem-for-rbm-with-drift-in-a-wedge",
+          title: 'Submartingale Problem for RBM with Drift in a Wedge',
           description: "A study on the existence, uniqueness, and path properties of RBM in wedge domains via the Varadhan-Williams submartingale formulation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/subMG_RBM/";
