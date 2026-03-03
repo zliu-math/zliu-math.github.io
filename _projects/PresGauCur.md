@@ -1,243 +1,250 @@
 ---
 layout: page
 title: Approaching Prescribed Gaussian Curvature by Discrete Conformality
-description: A convex-optimization, discrete-conformal method to approximate solutions of the prescribed Gaussian curvature problem on closed genus>1 surfaces, with provable convergence.
+description: A convex-variational, discrete-conformal method that approximates the conformal factor solving the prescribed Gaussian curvature equation on closed genus > 1 surfaces, with a sharp first-order convergence guarantee.
 img: assets/img/prescribed_curvature.png
-importance: 3
+importance: 1
 category: Research
 ---
 
 ### Project Overview
 
-This project develops a **discrete conformal geometry approach** for approximating solutions to the **prescribed Gaussian curvature problem** on **closed, orientable 2D Riemannian surfaces of genus > 1** (the “hyperbolic-type” case).  
-The core idea is to replace the smooth conformal PDE by a **finite-dimensional convex optimization problem on a geodesic triangulation**, producing a **unique discrete conformal factor** that converges to the smooth solution as the mesh is refined. :contentReference[oaicite:0]{index=0}
+[cite_start]This project provides a **discrete conformal geometry approach** to approximate solutions of the classical **prescribed Gaussian curvature problem** on **closed, orientable smooth surfaces of genus > 1** (the negatively curved regime)[cite: 953, 957, 1019, 1020].
+[cite_start]The method turns the smooth conformal PDE into a **finite-dimensional convex variational problem** on a **geodesic triangulation**[cite: 954, 973, 1006]. [cite_start]The target discrete solution is a **vertex conformal factor** $u \in \mathbb{R}^V$ that can be computed efficiently by **minimizing a globally convex functional**, and it converges to the smooth conformal factor with an explicit **first-order error bound**[cite: 1002, 1026, 1028].
 
-**Status:** Completed (paper-level result).  
-**Keywords:** prescribed curvature, discrete conformality, vertex scaling, convex energy, convergence, discrete elliptic estimates.
-
----
-
-### Problem Formulation (Smooth)
-
-Let \((S,g)\) be a connected closed smooth Riemannian surface with genus \(>1\).  
-Given a smooth target curvature function \(\tilde{\kappa}:S\to\mathbb{R}\) with
-
-$$
-\tilde{\kappa}(x) < 0 \quad \text{for all } x\in S,
-$$
-
-the prescribed Gaussian curvature problem asks for a metric \(\tilde{g}\) conformal to \(g\) such that the Gaussian curvature of \((S,\tilde{g})\) equals \(\tilde{\kappa}\).
-
-Write the conformal change as
-
-$$
-\tilde{g} = e^{2\tilde{u}}\, g,
-$$
-
-then \(\tilde{u}\) solves the classical curvature equation (in the sign convention used in the paper):
-
-$$
-\Delta_g \tilde{u} + \kappa \;=\; -\, e^{2\tilde{u}} \tilde{\kappa},
-$$
-
-where \(\kappa\) is the Gaussian curvature of \(g\) and \(\Delta_g\) is the Laplace–Beltrami operator.
-
-In the genus \(>1\), \(\tilde{\kappa}<0\) regime, existence and uniqueness of \(\tilde{u}\) are known in the smooth setting (Berger / Kazdan–Warner).
+[cite_start]**Status:** Completed (paper-level result)[cite: 948].
 
 ---
 
-### Discrete Setting: Triangulation + Vertex Scaling
+### Problem Formulation (Smooth Geometry)
 
-We start from a **geodesic triangulation** \(T\) of \((S,g)\), with vertex set \(V\), edge set \(E\), and face set \(F\).  
-Let
+[cite_start]Let $(S, g)$ be a connected closed orientable smooth Riemannian surface with genus $> 1$[cite: 1019, 1020].
+[cite_start]Given a smooth target curvature function [cite: 957]
 
 $$
-\ell \in \mathbb{R}^{E}_{>0}, \qquad \ell_{ij} := \text{(geodesic length of edge } ij \text{ in } (S,g)).
+\tilde{\kappa} : S \to \mathbb{R}, \qquad \tilde{\kappa}(x) < 0 \ \text{for all } x \in S,
 $$
 
-#### Discrete conformality (vertex scaling)
+[cite_start]the prescribed Gaussian curvature problem asks for a metric $\tilde{g}$ conformal to $g$ such that the Gaussian curvature of $(S, \tilde{g})$ equals $\tilde{\kappa}$[cite: 958, 959].
 
-A discrete conformal factor is a vector
+Writing the conformal change as
+
+$$
+\tilde{g} = e^{2\tilde{u}} g,
+$$
+
+[cite_start]the unknown conformal factor $\tilde{u}$ solves the curvature equation[cite: 960]:
+
+$$
+\Delta_g \tilde{u} + \kappa = - e^{2\tilde{u}} \tilde{\kappa},
+$$
+
+[cite_start]where $\kappa$ is the Gaussian curvature of $(S,g)$ and $\Delta_g$ is the Laplace–Beltrami operator[cite: 961, 962].
+
+[cite_start]In the regime where the genus is $> 1$ and $\tilde{\kappa} < 0$, the smooth problem has a **unique smooth solution** $\tilde{u}$ (classical results of Berger / Kazdan–Warner)[cite: 967, 1207, 1218].
+
+---
+
+### Discrete Model: Geodesic Triangulation + Vertex Scaling
+
+#### 1) Geodesic triangulation
+
+[cite_start]Let $T$ be a **geodesic triangulation** of $(S,g)$, with vertex/edge/face sets[cite: 1006]:
+
+* $V = V(T)$
+* $E = E(T)$
+* $F = F(T)$
+
+[cite_start]Let the (geodesic) edge lengths measured in $(S,g)$ be[cite: 1021, 1022]:
+
+$$
+l \in \mathbb{R}^{E}_{>0}, \qquad l_{ij} = \text{dist}_g(i,j).
+$$
+
+[cite_start]We regard $(T, l)$ as a polyhedral approximation of $(S,g)$[cite: 1008, 1010].
+
+#### 2) Discrete conformal factor (vertex scaling)
+
+[cite_start]A discrete conformal factor is a vector[cite: 981]:
 
 $$
 u \in \mathbb{R}^{V}.
 $$
 
-It rescales edge lengths by
+[cite_start]It rescales edge lengths by the standard **vertex scaling rule**[cite: 983]:
 
 $$
-\ell'_{ij} \;=\; e^{\frac{1}{2}(u_i+u_j)}\, \ell_{ij}, \qquad ij\in E,
+(u * l)_{ij} = e^{\frac{1}{2}(u_i + u_j)} l_{ij}, \qquad ij \in E.
 $$
 
-often written as \(\ell' = u * \ell\).
+This follows the discrete conformality notion developed by Luo and by Bobenko–Pinkall–Springborn[cite: 965, 1210, 1223].
+
+#### 3) “Mixed” negative curvature background per face
+
+To encode the target curvature field $\tilde{\kappa}$, we assign to each triangle $\sigma \in F$ a constant negative curvature[cite: 1022, 1023]:
+
+$$
+\mathcal{K}(\sigma) < 0,
+$$
+
+chosen by sampling $\tilde{\kappa}$ on that face, e.g.[cite: 1022, 1023]:
+
+$$
+\mathcal{K}(\sigma) = \tilde{\kappa}(x_\sigma) \quad \text{for some } x_\sigma \in \sigma.
+$$
+
+Each face is then realized as a **geodesic triangle in constant curvature $\mathcal{K}(\sigma)$** with side lengths given by the scaled edges $(u * l)$[cite: 987, 988].
 
 ---
 
-### “Mixed Background Curvature” per Face
+### Discrete Curvature and the Target Discrete Equation
 
-To encode the target curvature \(\tilde{\kappa}\), we assign each triangle \(\sigma\in F\) a **negative constant background curvature**:
+For each triangle $\triangle ijk$ with face curvature $\mathcal{K}(\triangle ijk)$, compute its inner angles
+[cite_start]$\theta^i_{jk}(u)$ at vertex $i$ (these depend on $\mathcal{K}(\triangle ijk)$ and the scaled edge lengths)[cite: 989, 990].
 
-$$
-K(\sigma) \in \mathbb{R}_{<0},
-$$
-
-chosen as a sample of \(\tilde{\kappa}\) on that face (e.g., \(K(\sigma)=\tilde{\kappa}(x_\sigma)\) for some \(x_\sigma\in \sigma\)).
-
-Each face \(\sigma=\triangle ijk\) is then treated as a **geodesic triangle in constant curvature \(K(\sigma)\)** whose edge lengths are \((u*\ell)_{ij}, (u*\ell)_{jk}, (u*\ell)_{ki}\). This produces **angles**
-\(\theta^i_{jk}(u)\) at vertex \(i\) (depending on \(K(\sigma)\) and \(u*\ell\)).
-
----
-
-### Discrete Curvature and the Target Equation
-
-Define the **generalized discrete curvature** at each vertex \(i\in V\) by angle defect:
+[cite_start]Define the **generalized discrete curvature** at each vertex $i \in V$ by angle defect[cite: 993, 994]:
 
 $$
-K_i(u) \;=\; 2\pi \;-\!\!\!\sum_{\triangle ijk\in F \text{ incident to } i}\!\!\! \theta^i_{jk}(u).
+K_i(u) = 2\pi - \sum_{\triangle ijk \in F \ \text{incident to } i} \theta^i_{jk}(u).
 $$
 
-The discrete prescription problem is:
+[cite_start]The discrete prescribed curvature problem in this project is[cite: 1012]:
 
-> **Find \(u\in\mathbb{R}^V\) such that**
+> Find $u \in \mathbb{R}^V$ such that
 >
 > $$
-> K(u) = 0 \quad \text{(i.e., } K_i(u)=0 \text{ for all } i\in V).
+> K(u) = 0 \quad \text{(i.e., } K_i(u)=0 \text{ for all } i \in V).
 > $$
 
-Intuitively: the faces already carry the “background” curvatures \(K(\sigma)\approx \tilde{\kappa}\); the condition \(K_i(u)=0\) enforces compatibility at vertices so the glued metric approximates a smooth surface with the prescribed curvature field.
+Interpretation: the face-wise constants $\mathcal{K}(\sigma)$ encode the desired curvature field,
+[cite_start]and the condition $K(u)=0$ enforces global compatibility of the glued metric so that the resulting polyhedral surface approximates the smooth solution metric $e^{2\tilde{u}} g$[cite: 1003, 1004].
 
 ---
 
-### What We Wanted (Main Goals)
+### What We Want (Deliverables)
 
-1. **Well-posedness (discrete):** show the discrete equation \(K(u)=0\) has **at most one solution** (ideally: unique solution exists under refinement assumptions).
-2. **Algorithmic tractability:** provide a **convex energy** whose minimizer yields the solution, enabling reliable computation.
-3. **Convergence theorem:** prove the discrete solution \(u\) converges to the smooth conformal factor \(\tilde{u}\) restricted to vertices, with an explicit rate.
+1.  [cite_start]**Discrete well-posedness:** show $K(u)=0$ has a **unique** solution under standard mesh regularity and refinement[cite: 1026].
+2.  [cite_start]**Efficient computation:** show the solution can be obtained by **minimizing a globally convex functional** (no spurious local minima)[cite: 1002].
+3.  [cite_start]**Convergence with rate:** prove $u$ converges to the smooth solution $\tilde{u}$ restricted to vertices, with an explicit **first-order** error bound[cite: 1028].
 
 ---
 
 ### Method: Convex Variational Principle + Discrete Elliptic Control
 
-#### (A) Convex energy whose gradient is curvature
+#### A) Convex energy whose gradient is curvature
 
-A key structural fact from discrete conformal geometry (Luo; Bobenko–Pinkall–Springborn) is that the 1-form
-
-$$
-\sum_{i\in V} K_i(u)\, du_i
-$$
-
-is closed on the domain where triangles are well-defined. Hence one can define a potential
+[cite_start]A key structural fact is that the 1-form is closed on the domain where the discrete triangles are well-defined, so one can define a potential[cite: 999, 1000]:
 
 $$
-F(u) \;=\; \int \sum_{i\in V} K_i(u)\, du_i,
+\mathcal{F}(u) = \int \sum_{i \in V} K_i(u) du_i,
 $$
 
-which is **locally strictly convex**. Moreover, Bobenko–Pinkall–Springborn provide an extension to a **globally convex functional** \(\tilde{F}\) on all of \(\mathbb{R}^V\).  
-Therefore:
+[cite_start]which is **locally strictly convex**[cite: 1001].
 
-- \(K(u)=0\) has **at most one** solution;
-- the solution can be computed by **minimizing a convex objective**.
+[cite_start]Moreover, Bobenko–Pinkall–Springborn provide an explicit extension to a **globally convex functional** $\tilde{\mathcal{F}}$ defined on all of $\mathbb{R}^V$[cite: 1002].
+[cite_start]Consequently[cite: 1002]:
 
-In practice, this supports robust solvers (Newton / damped Newton / gradient methods) without spurious local minima.
+* $K(u)=0$ has **at most one** solution.
+* The solution can be computed efficiently by minimizing $\tilde{\mathcal{F}}(u)$.
 
-#### (B) “Jacobian” of curvature = diagonal – Laplacian
+#### B) The “Jacobian” structure: diagonal minus weighted graph Laplacian
 
-A central computable identity in the analysis is the derivative structure:
-
-$$
-\frac{\partial K}{\partial u}(u) \;=\; D(u) \;-\; \Delta_{\eta(u)},
-$$
-
-where:
-- \(D(u)\) is a diagonal positive matrix;
-- \(\Delta_{\eta(u)}\) is a **graph Laplacian** with edge weights \(\eta_{ij}(u)\).
-
-This is the discrete analog of “ellipticity”: the operator controlling changes of curvature is (diagonal + Laplacian)-type.
-
-#### (C) Discrete elliptic estimate on graphs
-
-The proof uses a **discrete calculus on graphs** (gradient/divergence/Laplacian) together with a sharp **elliptic estimate** (from Wu–Zhu) under a uniform **isoperimetric condition** on the triangulation graph.
-
-This estimate is used to bound solutions of linear systems of the form
+[cite_start]A central technical tool is an explicit formula for the differential of discrete curvature[cite: 1089]:
 
 $$
-(D(u)-\Delta_{\eta(u)})\, w = \text{(small forcing)},
+\frac{\partial K}{\partial u}(u) = D(u) - \Delta_{\eta(u)},
 $$
 
-in the \(\ell_\infty\) norm—exactly what is needed for a clean convergence rate.
+[cite_start]where[cite: 1092, 1093]:
 
-#### (D) Continuation path (ODE) to reach \(K(u)=0\)
+* $D(u)$ is a **positive diagonal** matrix.
+* $\Delta_{\eta(u)}$ is a **weighted graph Laplacian** on $(V,E)$ with edge weights $\eta_{ij}(u)$.
 
-A constructive step defines a path \(u(t)\) via an ODE:
+#### C) Discrete elliptic estimate on graphs (Wu–Zhu)
 
-$$
-u'(t) \;=\; (\Delta_{\eta(u)} - D(u))^{-1} K(\tilde{u}), 
-\qquad u(0)=\tilde{u}|_{V}.
-$$
-
-Then one verifies
+[cite_start]The convergence proof relies on a sharp **discrete elliptic estimate** under a uniform **C-isoperimetric condition** on the triangulation graph[cite: 1055, 1064, 1070].
+[cite_start]This estimate controls solutions to linear systems of the form[cite: 1084]:
 
 $$
-\frac{d}{dt}K(u(t)) = -K(\tilde{u})
-\quad \Longrightarrow \quad
-K(u(t)) = (1-t)\,K(\tilde{u}),
+(D(u)-\Delta_{\eta(u)}) w = \text{(small forcing)},
 $$
 
-so at \(t=1\) we obtain \(K(u(1))=0\), i.e. a discrete solution, while the discrete elliptic bound controls \(|u'(t)|\) and hence the final error.
+in the $\| [cite_start]\cdot \|_\infty$ norm, which is crucial for proving a clean $\mathcal{O}(|l|)$ convergence rate[cite: 1084, 1144, 1145].
+
+#### D) A continuation path to reach K(u)=0
+
+[cite_start]The proof constructs a smooth path $\underline{u}(t)$ on $[0,1]$ starting from the smooth solution restricted to vertices[cite: 1142, 1179]:
+
+* $\underline{u}(0) = \tilde{u}|_{V}$
+
+[cite_start]such that[cite: 1143, 1188]:
+
+$$
+K(\underline{u}(t)) = (1-t) K(\tilde{u}).
+$$
+
+Then one shows $|\underline{u}'(t)| [cite_start]= \mathcal{O}(|l|)$ uniformly, implying[cite: 1144, 1204]:
+
+* $K(\underline{u}(1)) = 0$
+* $|\underline{u}(1) - \tilde{u}|_V = \mathcal{O}(|l|)$
+
+[cite_start]so $\underline{u}(1)$ is the desired discrete conformal factor[cite: 1146, 1147].
 
 ---
 
-### Main Result (What We Proved)
+### Main Theorem (Existence, Uniqueness, and Convergence Rate)
 
-Under standard refinement assumptions on a geodesic triangulation:
+We use the infinity norm convention $|x| [cite_start]= \|x\|_\infty$[cite: 1016, 1017].
 
-- **\(\varepsilon\)-acuteness:** all angles are bounded by \(\frac{\pi}{2}-\varepsilon\);
-- **small mesh size:** \(|\ell|\) (max edge length) is sufficiently small;
-- **negative target curvature:** \(\tilde{\kappa}<0\), genus \(>1\);
+[cite_start]A polyhedral surface $(T,l)$ is called $\epsilon$-acute if every triangle angle satisfies[cite: 1016, 1018]:
 
-we prove:
+$$
+\theta \le \frac{\pi}{2} - \epsilon.
+$$
 
-1. **Existence & uniqueness:** there exists a **unique** discrete conformal factor \(u\in\mathbb{R}^V\) solving
+[cite_start]**Theorem (Main Result).** Let $(S,g)$ be a connected closed orientable smooth Riemannian surface with genus $> 1$[cite: 1019, 1020]. [cite_start]Let $\tilde{\kappa}(x) < 0$ be a smooth function on $S$, and let $\tilde{u}$ solve the smooth curvature equation so that $e^{2\tilde{u}} g$ has curvature $\tilde{\kappa}(x)$[cite: 1020, 1021, 1022].
+[cite_start]Let $T$ be a geodesic triangulation with edge lengths $l$, and set for each face $\sigma$ a constant $\mathcal{K}(\sigma) = \tilde{\kappa}(x_\sigma)$ for some $x_\sigma \in \sigma$[cite: 1022, 1023, 1024].
+
+Then for any $\epsilon > 0$, there exist constants $\delta > 0$ and $C > 0$ such that if $(T,l)$ is $\epsilon$-acute and $|l| [cite_start]< \delta$, then[cite: 1024, 1025, 1026]:
+
+1. (**Existence & uniqueness**) [cite_start]There exists a unique $u \in \mathbb{R}^V$ such that[cite: 1026, 1027]:
    $$
-   K(u)=0.
+   K(\mathcal{K}, u * l) = 0
    $$
-
-2. **Quantitative convergence:** letting \(\tilde{u}\) be the smooth solution and \(\tilde{u}|_V\) its restriction to vertices,
+2. (**First-order convergence**) [cite_start][cite: 1028]
    $$
-   \|u - \tilde{u}|_V\|_\infty \;\le\; C\,|\ell|,
+   |u - \tilde{u}|_{V} \le C |l|.
    $$
-   i.e. **first-order** (linear) convergence in the max norm as the mesh refines.
-
-**Interpretation:** the method is not only computable (convex) but also *provably consistent* with a clean rate.
 
 ---
 
-### What You Can Reuse (Implementation-Friendly Summary)
+### Practical Computation (Solver-Friendly Summary)
 
 **Inputs**
-- Smooth surface \((S,g)\) with genus \(>1\), geodesic triangulation \(T\), edge lengths \(\ell\).
-- Target negative curvature \(\tilde{\kappa}<0\), sampled per face as \(K(\sigma)\).
+* [cite_start]A geodesic triangulation $T$ of $(S,g)$ with edge lengths $l$[cite: 1006, 1007, 1008].
+* [cite_start]A smooth negative target curvature $\tilde{\kappa}$ sampled per face as $\mathcal{K}(\sigma)$[cite: 1022, 1023].
 
-**Optimization variable**
-- Vertex vector \(u\in\mathbb{R}^V\).
+**Unknown**
+* [cite_start]Vertex vector $u \in \mathbb{R}^V$[cite: 1012].
 
-**Core computations**
-- For each face \(\triangle ijk\), compute angles in the constant-curvature triangle determined by \(K(\triangle ijk)\) and edge lengths \((u*\ell)\).
-- Assemble vertex curvatures \(K_i(u) = 2\pi - \sum \theta^i_{jk}(u)\).
+**Core loop (conceptual)**
+1.  [cite_start]Compute scaled lengths $l' = u * l$[cite: 983, 984].
+2.  For each triangle $\sigma = ijk$, compute angles using the constant-curvature triangle geometry with curvature $\mathcal{K}(\sigma)$ and side lengths $l'$[cite: 987, 988].
+3.  Assemble vertex curvatures $K_i(u) = 2\pi - \sum \text{angles}$[cite: 993, 994].
+4.  Solve $K(u)=0$ either by[cite: 1002, 1012, 1089]:
+    * minimizing the globally convex energy $\tilde{\mathcal{F}}(u)$, or
+    * Newton updates using $\frac{\partial K}{\partial u} = D - \Delta_\eta$ (with damping/line-search if desired).
 
-**Solver**
-- Minimize the globally convex energy \(\tilde{F}(u)\) (or solve \(K(u)=0\) via Newton using \(\partial K/\partial u = D-\Delta_\eta\)).
+[cite_start]Because the objective is globally convex, the optimization landscape is well-behaved[cite: 1001, 1002].
 
-A minimal “solver skeleton”:
+---
 
-```text
-initialize u := 0  (or any vector)
-repeat until convergence:
-    compute scaled lengths l' := u * l
-    compute angles per face using constant curvature K(face)
-    assemble vertex curvature vector K(u)
-    if ||K(u)|| is small: stop
-    assemble Jacobian J(u) = D(u) - Δ_{η(u)}
-    solve J(u) * δu = -K(u)
-    update u := u + step * δu    (step via damping/line search if desired)
-return u
+### Selected References (Accurate Titles)
+
+1.  [cite_start]**Melvyn S. Berger.** *Riemannian structures of prescribed gaussian curvature for compact 2-manifolds.* Journal of Differential Geometry, 5(3–4):325–332, 1971[cite: 1207].  
+2.  [cite_start]**Alexander I. Bobenko, Ulrich Pinkall, Boris A. Springborn.** *Discrete conformal maps and ideal hyperbolic polyhedra.* Geometry & Topology, 19(4):2155–2215, 2015[cite: 1210, 1211].  
+3.  [cite_start]**David Gu, Feng Luo, Tianqi Wu.** *Convergence of discrete conformal geometry and computation of uniformization maps.* Asian Journal of Mathematics, 23(1):21–34, 2019[cite: 1214, 1215].  
+4.  [cite_start]**Jerry L. Kazdan, Frank W. Warner.** *Curvature functions for compact 2-manifolds.* Annals of Mathematics, 99(1):14–47, 1974[cite: 1217, 1218].  
+5.  [cite_start]**Jerry L. Kazdan, Frank W. Warner.** *Scalar curvature and conformal deformation of riemannian structure.* Journal of Differential Geometry, 10(1):113–134, 1975[cite: 1219, 1222].  
+6.  [cite_start]**Feng Luo.** *Combinatorial yamabe flow on surfaces.* Communications in Contemporary Mathematics, 6(05):765–780, 2004[cite: 1223, 1224].  
+7.  [cite_start]**Tianqi Wu, Xiaoping Zhu.** *The convergence of discrete uniformizations for closed surfaces.* Journal of Differential Geometry, 127(3):1305–1343, 2024[cite: 1225, 1226].
