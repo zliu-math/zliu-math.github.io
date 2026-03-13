@@ -25,24 +25,39 @@ $max-content-width: {{ site.max_width }};
 ;
 
 
-/* 标签样式 */
-.abbr .badge {
-  background-color: #af00af; /* 默认紫色 */
-  min-width: 65px;
-  text-transform: lowercase;
-  padding: 5px 8px;
-  font-weight: 500;
-  border-radius: 4px;
+/* 优化左侧标签样式 */
+.abbr abbr.badge {
+  /* 统一宽度和形状 */
+  display: inline-block;
+  width: 100px !important; /* 长度一致 */
+  padding: 6px 0 !important;
+  border-radius: 4px !important;
+  
+  /* 字体微调 */
+  font-size: 0.75rem !important;
+  font-weight: 500 !important;
+  text-transform: uppercase; /* 统一大写更有质感 */
+  letter-spacing: 0.5px;
+  
+  /* 颜色：使用与主题融合的半透明灰/系统色 */
+  background-color: rgba(255, 255, 255, 0.1) !important; 
+  color: #ccc !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  
+  /* 取消默认阴影，保持扁平化 */
+  box-shadow: none !important;
 }
 
-/* 调整行间距，避免论文太挤 */
-.bibliography li {
-  margin-bottom: 30px !important;
+/* 鼠标悬停时稍微亮一点 */
+.abbr abbr.badge:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #fff !important;
 }
 
-/* 确保移动端也能对齐 */
-@media (max-width: 576px) {
-  .abbr {
-    margin-bottom: 10px;
-  }
+/* 修正左侧列的间距 */
+.abbr {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 4px; /* 让标签和标题首行对齐 */
 }
