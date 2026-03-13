@@ -23,3 +23,21 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+
+/* 隐藏右侧或左侧的年份数字 */
+.year {
+  display: none !important;
+}
+
+/* 强制让存放论文内容的容器占满整行 */
+.col-sm-10, .col-sm-9 {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
+
+/* 移除可能存在的缩进 */
+.bibliography {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
