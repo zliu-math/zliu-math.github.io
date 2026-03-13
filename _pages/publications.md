@@ -1,20 +1,13 @@
 ---
 layout: page
-permalink: /publications/
 title: Research
-description: 
+permalink: /research/
 nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
+<hr>
 
 <div class="publications">
-
-{% bibliography --group_by none %}
-
+  {% bibliography --group_by none %}
 </div>
