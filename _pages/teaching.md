@@ -22,7 +22,7 @@ nav_order: 5
       <span class="badge rounded shadow-none">Lecturer</span>
     </div>
     <div class="col-sm-10">
-      <div class="course-title"> STAT 134 - Concepts of Probability </div>
+      <div class="course-title"> STAT 134, Concepts of Probability. </div>
       <div class="course-meta">Summer 2024 • Undergraduate Core Course</div>
       <div class="course-desc">
         
@@ -46,13 +46,13 @@ An introduction to probability, emphasizing concepts and applications. Condition
       <span class="badge rounded shadow-none">Instructor</span>
     </div>
     <div class="col-sm-10">
-      <div class="course-title">Operations Management, OPMG-UB 1-001</div>
+      <div class="course-title">OPMG-UB 1-001, Operations Management. </div>
       <div class="course-meta">Summer 2019 • Undergraduate Core Course</div>
       <div class="course-desc">
       This course serves as a core introduction for undergraduate students interested in operations research and its business applications. It is offered as OPMG-UB 1-001, Summer 2019, at the Leonard N. Stern School of Business, New York University. The summer session is an intensive version of the course offered during the Fall and Spring semesters, with a substantially accelerated teaching schedule. Information regarding the teaching assistant and office hours will be announced in the syllabus. Please direct any questions to my email address: zl1011@stern.nyu.edu
       </div>
       <div class="course-links">
-        <a href="/teaching/calc-fall25/" class="btn btn-sm">Detailed Syllabus</a>
+        <a href="/teaching/OPMGUB1001/" class="btn btn-sm">Detailed Syllabus</a>
         <a href="#" class="btn btn-sm">Reading List</a>
         <a href="#" class="btn btn-sm">Problem Sets</a>
       </div>
