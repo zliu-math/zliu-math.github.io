@@ -31,15 +31,15 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "Teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          title: "teaching",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "",
+          title: "Teaching",
+          description: "Materials for courses you taught. Replace this text with your description.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
