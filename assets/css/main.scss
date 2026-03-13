@@ -24,46 +24,22 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
+/* ==========================================================================
+   1. 全局元素与横线样式 (Global Elements & HR)
+   ========================================================================== */
 
-/* 优化左侧标签样式 */
-.abbr abbr.badge {
-  /* 统一宽度和形状 */
-  display: inline-block;
-  width: 100px !important; /* 长度一致 */
-  padding: 6px 0 !important;
-  border-radius: 4px !important;
-  
-  /* 字体微调 */
-  font-size: 0.75rem !important;
-  font-weight: 500 !important;
-  text-transform: uppercase; /* 统一大写更有质感 */
-  letter-spacing: 0.5px;
-  
-  /* 颜色：使用与主题融合的半透明灰/系统色 */
-  background-color: rgba(255, 255, 255, 0.1) !important; 
-  color: #ccc !important;
-  border: 1px solid rgba(255, 255, 255, 0.15) !important;
-  
-  /* 取消默认阴影，保持扁平化 */
-  box-shadow: none !important;
+/* 统一标题下方的横线样式（Research & Teaching 通用） */
+hr {
+  border-top: 1px solid #333 !important;
+  margin-top: 5px !important;
+  margin-bottom: 40px !important;
+  opacity: 0.6;
 }
 
-/* 鼠标悬停时稍微亮一点 */
-.abbr abbr.badge:hover {
-  background-color: rgba(255, 255, 255, 0.2) !important;
-  color: #fff !important;
-}
+/* ==========================================================================
+   2. 统一标签样式 (Unified Badges/Abbr)
+   ========================================================================== */
 
-/* 修正左侧列的间距 */
-.abbr {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-top: 4px; /* 让标签和标题首行对齐 */
-}
-
-
-/* 1. 强制标签使用系统主题色 (跟随全局 Theme Color) */
 .abbr .badge, .abbr abbr.badge {
   display: inline-block !important;
   width: 95px !important;         /* 统一长度 */
@@ -71,95 +47,9 @@ $max-content-width: {{ site.max_width }};
   text-align: center !important;
   border-radius: 4px !important;
   
-  /* --- 颜色核心修改 --- */
-  /* 背景色：使用系统主题色 (即导航栏选中的那个颜色) */
+  /* 颜色：使用系统主题色并强制白色文字 */
   background-color: var(--global-theme-color) !important; 
-  /* 文字颜色：强制为白色，确保在深色背景下清晰 */
   color: white !important; 
-  /* ------------------- */
   
-  /* 字体设置 */
-  font-size: 0.65rem !important;
-  font-weight: 700 !important;
-  text-transform: uppercase !important;
-  box-shadow: none !important;
-  border: none !important;
-}
-
-/* 2. 修正分栏宽度，防止标签和文字重叠 */
-.col-sm-2.abbr {
-  flex: 0 0 110px !important;
-  max-width: 110px !important;
-}
-
-.col-sm-10 {
-  flex: 0 0 calc(100% - 110px) !important;
-  max-width: calc(100% - 110px) !important;
-}
-
-
-
-/* --- High-Level Teaching Styles --- */
-
-.teaching-philosophy {
-  font-size: 1.1rem;
-  font-style: italic;
-  color: #999;
-  line-height: 1.6;
-  margin-bottom: 30px;
-  max-width: 850px;
-}
-
-.institution-title {
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin-top: 50px;
-  margin-bottom: 25px;
-  color: var(--global-theme-color); /* Uses your theme blue */
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.teaching-entry {
-  margin-bottom: 40px;
-  border-left: 2px solid #333; /* Subtle vertical line for a timeline feel */
-  padding-left: 20px;
-}
-
-.course-title {
-  font-size: 1.15rem;
-  font-weight: 600;
-  color: #fff;
-}
-
-.course-meta {
-  font-size: 0.85rem;
-  color: #666;
-  margin-bottom: 8px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.course-desc {
-  font-size: 0.95rem;
-  color: #bbb;
-  margin-bottom: 12px;
-  line-height: 1.5;
-}
-
-/* Buttons for Syllabus/Material */
-.course-links .btn {
-  padding: 3px 10px;
-  font-size: 0.75rem;
-  border: 1px solid #444;
-  background: transparent;
-  color: #888;
-  margin-right: 8px;
-  transition: all 0.3s ease;
-}
-
-.course-links .btn:hover {
-  border-color: var(--global-theme-color);
-  color: var(--global-theme-color);
-  background: rgba(0, 163, 211, 0.05);
-}
+  /* 字体与排版 */
+  font-size: 0.6
