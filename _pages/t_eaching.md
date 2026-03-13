@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /t_eaching/
-title: Teaching
+title: t_eaching
 description: Materials for courses you taught. Replace this text with your description.
-nav: true
+nav: false
 nav_order: 6
 ---
 
