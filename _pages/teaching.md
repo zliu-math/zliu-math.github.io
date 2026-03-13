@@ -4,7 +4,7 @@ title: teaching
 permalink: /teaching/
 description: 
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 <div class="teaching-philosophy">
