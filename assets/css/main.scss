@@ -61,3 +61,46 @@ $max-content-width: {{ site.max_width }};
   align-items: flex-start;
   padding-top: 4px; /* 让标签和标题首行对齐 */
 }
+
+
+/* 1. 强制统一标签长度和颜色 (系统暗黑配色) */
+.abbr .badge, .abbr abbr.badge {
+  display: inline-block !important;
+  width: 90px !important;        /* 长度统一固定 */
+  padding: 5px 0 !important;     /* 统一高度 */
+  text-align: center !important;
+  border-radius: 4px !important;
+  
+  /* 颜色：背景用深灰，文字用浅灰，完美适配你的暗黑主题 */
+  background-color: #383838 !important; 
+  color: #bbbbbb !important;
+  border: 1px solid #4a4a4a !important;
+  
+  /* 字体：稍微缩小一点防止文字溢出 */
+  font-size: 0.65rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.3px !important;
+  box-shadow: none !important;
+}
+
+/* 2. 悬停效果：稍微变亮一点点 */
+.abbr .badge:hover {
+  background-color: #454545 !important;
+  color: #ffffff !important;
+}
+
+/* 3. 强制左侧分栏宽度，防止被撑开 */
+.col-sm-2.abbr {
+  flex: 0 0 100px !important;
+  max-width: 100px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* 4. 右侧内容自动对齐 */
+.col-sm-10 {
+  flex: 0 0 calc(100% - 100px) !important;
+  max-width: calc(100% - 100px) !important;
+  padding-left: 15px !important;
+}
