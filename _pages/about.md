@@ -9,7 +9,7 @@ profile:
   image: Office_prof_1.jpg
   image_circular: false # 如果你想要圆形的头像，把这里改成 true
   more_info: >
-    <p>Shanghai Institute for Mathematics</p>
+    <p>Office 1220, Shanghai Institute for Mathematics</p>
     <p>and Interdisciplinary Sciences</p>
     <p>Shanghai, China, 200433</p>
 
