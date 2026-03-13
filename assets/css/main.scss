@@ -25,26 +25,24 @@ $max-content-width: {{ site.max_width }};
 ;
 
 
-/* 1. 强制隐藏年份所在的列 */
-.bibliography .row .year, 
-.bibliography .row .col-sm-2 {
-    display: none !important;
+/* 标签样式 */
+.abbr .badge {
+  background-color: #af00af; /* 默认紫色 */
+  min-width: 65px;
+  text-transform: lowercase;
+  padding: 5px 8px;
+  font-weight: 500;
+  border-radius: 4px;
 }
 
-/* 2. 强制让论文内容列占满 100% 宽度，并取消偏移 */
-.bibliography .row .col-sm-8, 
-.bibliography .row .col-sm-10 {
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
+/* 调整行间距，避免论文太挤 */
+.bibliography li {
+  margin-bottom: 30px !important;
 }
 
-/* 3. 如果你的模板年份是浮动在右侧的，隐藏右侧年份标题 */
-h2.year, h2.bibliography-year {
-    display: none !important;
-}
-
-/* 4. 移除年份留下的外边距 */
-.bibliography {
-    margin-left: 0 !important;
-    padding-left: 0 !important;
+/* 确保移动端也能对齐 */
+@media (max-width: 576px) {
+  .abbr {
+    margin-bottom: 10px;
+  }
 }
