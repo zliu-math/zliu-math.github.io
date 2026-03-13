@@ -8,9 +8,7 @@ nav_order: 5
 ---
 
 <div class="teaching-philosophy">
-  <p>
-    My approach to teaching is rooted in the belief that mathematics is a living language. I strive to bridge the gap between abstract theory and intuition, fostering a rigorous yet supportive environment where students are encouraged to explore, question, and master complex structures.
-  </p>
+  
 </div>
 
 <hr>
