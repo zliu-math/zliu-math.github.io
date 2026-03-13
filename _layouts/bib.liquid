@@ -1,14 +1,14 @@
 ---
 ---
 <div class="row">
-  <div class="col col-sm-2 abbr">
+  <div class="col-sm-2 abbr">
     {%- if entry.abbr -%}
       {%- if site.data.venues[entry.abbr] -%}
         {% assign venue_style = null %}
         {% if site.data.venues[entry.abbr].color != blank %}
           {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
         {%- endif -%}
-        <abbr class="badge rounded w-100" {% if venue_style %}{{ venue_style }}{% endif -%}>
+        <abbr class="badge rounded" {% if venue_style %}{{ venue_style }}{% endif -%}>
           {% if site.data.venues[entry.abbr].url %}
             <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
           {% else %}
@@ -16,7 +16,7 @@
           {% endif %}
         </abbr>
       {% else %}
-        <abbr class="badge rounded w-100" style="background-color: #af00af;">{{ entry.abbr }}</abbr>
+        <abbr class="badge rounded">{{ entry.abbr }}</abbr>
       {% endif %}
     {%- endif -%}
 
@@ -32,7 +32,6 @@
 
   <div id="{{ entry.key }}" class="col-sm-10">
     <div class="title" style="font-weight: bold;">{{ entry.title }}</div>
-    
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
       {% assign author_array_limit = author_array_size %}
@@ -109,7 +108,6 @@
     {% if entry.abstract %}
       <div class="abstract hidden"><p>{{ entry.abstract }}</p></div>
     {% endif %}
-
     {% if entry.bibtex_show %}
       <div class="bibtex hidden">{% highlight bibtex %}{{- entry.bibtex | hideCustomBibtex -}}{% endhighlight %}</div>
     {% endif %}
