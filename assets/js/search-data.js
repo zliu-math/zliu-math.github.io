@@ -442,7 +442,7 @@ ninja.data = [{
               window.location.href = "/projects/TwoQueues/";
             },},{id: "projects-gaussian-chaos-noise-gch-patent-project",
           title: 'Gaussian Chaos Noise (GCh) Patent Project',
-          description: "China invention patent application in preparation on a structured noise injection method for reliable deep learning, based on Gaussian Chaos Noise with spatial correlation and mean-preserving multiplicative gating.",
+          description: "[China invention patent application completed] A structured noise injection method for reliable deep learning, based on Gaussian Chaos Noise with spatial correlation and mean-preserving multiplicative gating.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gcn_patent/";
             },},{id: "projects-submartingale-problem-for-rbm-with-drift-in-a-wedge",
