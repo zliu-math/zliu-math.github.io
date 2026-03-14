@@ -440,6 +440,11 @@ ninja.data = [{
           description: "这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TwoQueues/";
+            },},{id: "projects-gaussian-chaos-noise-gch-patent",
+          title: 'Gaussian Chaos Noise (GCh) Patent',
+          description: "China invention patent application in preparation on a structured noise injection method for reliable deep learning, based on Gaussian Chaos Noise with spatial correlation and mean-preserving multiplicative gating.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gcn_patent/";
             },},{id: "projects-submartingale-problem-for-rbm-with-drift-in-a-wedge",
           title: 'Submartingale Problem for RBM with Drift in a Wedge',
           description: "We study reflecting Brownian motion with drift constrained to a wedge in the plane. Our first set of results provide necessary and suﬃcient conditions for existence and uniqueness of a solution to the corresponding submartingale problem with drift, and show that its solution possesses the Markov and Feller properties. Next, we study a version of the problem with absorption at the vertex of the wedge. In this case, we provide a condition for existence and uniqueness of a solution to the problem and some results on the probability of the vertex being reached.",
