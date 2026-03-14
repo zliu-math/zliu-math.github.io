@@ -21,11 +21,47 @@ nav_order: 5
 <div class="teaching-entry">
   <div class="row">
     <div class="col-sm-2 abbr">
+      <span class="badge rounded shadow-none">TA and Tutor</span>
+    </div>
+    <div class="col-sm-10">
+      <div class="course-title">Number Theory: Theory and Applications</div>
+      <div class="course-meta">2024 Spring • Talented Youth Program</div>
+      <div class="course-desc">
+        Served as the primary Teaching Assistant and Lead Tutor, my work focused on clarifying complex proofs, guiding students through weekly problem sets, and managing the comprehensive Q&A for the entire cohort.
+      </div>
+      <div class="course-links">
+        <a href="#" class="btn btn-sm">Course Notes</a>
+        <a href="#" class="btn btn-sm">Reading List</a>
+        <a href="#" class="btn btn-sm">Final Exam</a>
+        <a href="#" class="btn btn-sm">Solution Sheet</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 class="institution-title">Tsinghua University</h3>
+
+<div class="teaching-entry">
+  <div class="row">
+    <div class="col-sm-2 abbr">
       <span class="badge rounded shadow-none">Mentor</span>
     </div>
     <div class="col-sm-10">
       <div class="course-title">Advanced Mathematics Inquiry & Problem Solving Sessions</div>
-      <div class="course-meta">2024 Spring • Undergraduate & Advanced Youth Program</div>
+      <div class="course-meta">2024 Spring • Talented Youth Program</div>
       <div class="course-desc">
         Serving as a Teaching Assistant and lead mentor for Shing-Tung Yau's talanted Youth program in mathematics at Tsinghua University, to mentor students and advanced middle schoolers. My primary responsibility involves conducting weekly 2-hour intensive Q&A sessions covering a wide range of topics, including Number Theory, Group Theory, Linear Algebra, and Differential Geometry. I provide personalized guidance, helping students bridge the gap between fundamental concepts and higher-level undergraduate mathematical theory.
       </div>
