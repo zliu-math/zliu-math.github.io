@@ -3,7 +3,7 @@ layout: page
 title: Gaussian Chaos Noise (GCh) Patent Project
 description: >
   [China invention patent application completed] A structured noise injection method for reliable deep learning, based on Gaussian Chaos Noise with spatial correlation and mean-preserving multiplicative gating.
-img: assets/img/GCh1.618.png
+img: assets/img/GChPatent.png
 importance: 1
 category: Patents
 ---
