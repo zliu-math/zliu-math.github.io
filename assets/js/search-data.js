@@ -440,8 +440,8 @@ ninja.data = [{
           description: "这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/TwoQueues/";
-            },},{id: "projects-gaussian-chaos-noise-gch-patent",
-          title: 'Gaussian Chaos Noise (GCh) Patent',
+            },},{id: "projects-gaussian-chaos-noise-gch-patent-project",
+          title: 'Gaussian Chaos Noise (GCh) Patent Project',
           description: "China invention patent application in preparation on a structured noise injection method for reliable deep learning, based on Gaussian Chaos Noise with spatial correlation and mean-preserving multiplicative gating.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gcn_patent/";
