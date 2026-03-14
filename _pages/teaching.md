@@ -14,6 +14,33 @@ nav_order: 5
 <hr>
 
 
+
+
+<h3 class="institution-title">Tsinghua University</h3>
+
+<div class="teaching-entry">
+  <div class="row">
+    <div class="col-sm-2 abbr">
+      <span class="badge rounded shadow-none">Mentor</span>
+    </div>
+    <div class="col-sm-10">
+      <div class="course-title">Advanced Mathematics Inquiry & Problem Solving Sessions</div>
+      <div class="course-meta">2024 Spring • Undergraduate & Advanced Youth Program</div>
+      <div class="course-desc">
+        Serving as a Teaching Assistant and lead mentor for Shing-Tung Yau's talanted Youth program in mathematics at Tsinghua University, to mentor students and advanced middle schoolers. My primary responsibility involves conducting weekly 2-hour intensive Q&A sessions covering a wide range of topics, including Number Theory, Group Theory, Linear Algebra, and Differential Geometry. I provide personalized guidance, helping students bridge the gap between fundamental concepts and higher-level undergraduate mathematical theory.
+      </div>
+      <div class="course-links">
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
 <h3 class="institution-title">University of California, Berkeley</h3>
 
 <div class="teaching-entry">
@@ -34,6 +61,10 @@ An introduction to probability, emphasizing concepts and applications. Condition
     </div>
   </div>
 </div>
+
+
+
+
 
 
 
@@ -101,9 +132,9 @@ An introduction to probability, emphasizing concepts and applications. Condition
     </div>
     <div class="col-sm-10">
       <div class="course-title">Stanford Mathematics Tournament (SMT)</div>
-      <div class="course-meta">2023 - Present</div>
+      <div class="course-meta">2023 summer</div>
       <div class="course-desc">
-        Mentoring high school students in advanced problem-solving techniques for national-level competitions.
+        Mentoring high school or univeristy students in advanced problem-solving for national-level competitions.
       </div>
     </div>
   </div>
