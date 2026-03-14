@@ -57,7 +57,7 @@ category: Patents
 ## English Translation
 
 **Note.**  
-This project is currently being prepared primarily as a **China invention patent application**, with future international filing strategy under consideration. For clarity and accessibility, this page provides a bilingual presentation: the upper part is the original Chinese version, and the following part is the corresponding English translation. The two parts are intended to convey the same substantive content.
+This project is completed and has been applied to **China invention patent application**, with future international filing as a further international patent. For clarity and accessibility, this page provides a bilingual presentation: the upper part is the original Chinese version, and the following part is the corresponding English translation. The two parts are intended to convey the same substantive content.
 
 ### Project Title
 
