@@ -24,16 +24,12 @@ nav_order: 5
       <span class="badge rounded shadow-none">TA and Tutor</span>
     </div>
     <div class="col-sm-10">
-      <div class="course-title">Number Theory: Theory and Applications</div>
+      <div class="course-title">Number Theory</div>
       <div class="course-meta">2024 Spring • Talented Youth Program</div>
       <div class="course-desc">
         Served as the primary Teaching Assistant and Lead Tutor, my work focused on clarifying complex proofs, guiding students through weekly problem sets, and managing the comprehensive Q&A for the entire cohort.
       </div>
       <div class="course-links">
-        <a href="#" class="btn btn-sm">Course Notes</a>
-        <a href="#" class="btn btn-sm">Reading List</a>
-        <a href="#" class="btn btn-sm">Final Exam</a>
-        <a href="#" class="btn btn-sm">Solution Sheet</a>
       </div>
     </div>
   </div>
