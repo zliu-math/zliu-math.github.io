@@ -426,7 +426,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/Jacobian/";
             },},{id: "projects-completed-prescribed-gaussian-curvature-by-discrete-conformality",
-          title: '(Completed Prescribed Gaussian Curvature by Discrete Conformality',
+          title: '(Completed) Prescribed Gaussian Curvature by Discrete Conformality',
           description: "We propose a discrete approach for approximating solutions to the prescribed Gaussian curvature problem in two dimensional manifolds, based on the notion of discrete conformality. Our approach provides an eﬀicient numerical method to compute the solution by minimizing a convex functional.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PresGauCur/";
