@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gaussian Chaos Noise (GCh)
+title: (Completed) Gaussian Chaos Noise (GCh)
 description: >
   A first-principles variational framework for noise injection where noise structure is derived from task-driven desiderata. This yields Gaussian Chaos Noise (GCh), a scale-tolerant multiplicative gate with canonical Green-kernel correlation.
 img: assets/img/GCh1.618.png
