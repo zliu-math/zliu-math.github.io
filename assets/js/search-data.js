@@ -415,8 +415,8 @@ ninja.data = [{
           description: "这里写你想加的那段文字内容。例如：这是我关于概率论与深度学习结合的研究项目，重点在于 LCK 框架的应用。",
           section: "Projects",handler: () => {
               window.location.href = "/projects/FKConvRate/";
-            },},{id: "projects-gaussian-chaos-noise-gch",
-          title: 'Gaussian Chaos Noise (GCh)',
+            },},{id: "projects-completed-gaussian-chaos-noise-gch",
+          title: '(Completed) Gaussian Chaos Noise (GCh)',
           description: "A first-principles variational framework for noise injection where noise structure is derived from task-driven desiderata. This yields Gaussian Chaos Noise (GCh), a scale-tolerant multiplicative gate with canonical Green-kernel correlation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GCh/";
