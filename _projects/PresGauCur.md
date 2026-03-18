@@ -1,6 +1,6 @@
 ---
 layout: page
-title: (Completed Prescribed Gaussian Curvature by Discrete Conformality 
+title: (Completed) Prescribed Gaussian Curvature by Discrete Conformality 
 description: We propose a discrete approach for approximating solutions to the prescribed Gaussian curvature problem in two dimensional manifolds, based on the notion of discrete conformality. Our approach provides an eﬀicient numerical method to compute the solution by minimizing a convex functional.
 img: assets/img/PreGauCur1.618.png
 importance: 3
