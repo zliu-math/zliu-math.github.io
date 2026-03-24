@@ -55,3 +55,11 @@ for their guidance and support. I am especially indebted to
 
 
 Keywords of my recent papers: stochastic analysis, reflected diffusions, geometric structures in learning dynamics, reflected diffusion models, optimal transport, Dirac operator and spectral geometry, generative models, AI for mathematics, probabilistic structures in representation theory, rough paths, geometric deep learning, and stochastic dynamics of learning systems.
+
+
+
+<br>
+
+### Upcoming
+
+* **[AI for Mathematics Workshop](/workshop/)**: I am organizing a workshop and colloquium focusing on the intersection of deep learning and pure mathematics, scheduled for **April 6–7, 2026**, at the Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS).
