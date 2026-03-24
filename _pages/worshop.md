@@ -22,6 +22,7 @@ The workshop is designed as a **focused, invitation-based meeting**, bringing to
 
 **April 6 (SIMIS Colloquium)**
 * **14:00 - 15:00**: *Yang-Hui He* - AI & the Future of Mathematics
+
 Abstract: Artificial intelligence (AI) is transforming society: the public has felt towards it the way civilisation felt towards the Industrial Revolution, only that the rapid change is happening at the scale of days rather than decades. In this talk, we invite the audience to see the influence of AI on theoretical research - pure mathematics and fundamental physics - within the last decade, how the very methods and philosophy of mathematical discovery are impacted. At the core is the question: can AI reason and wonder? Indeed, what is it to be human?
 
 Bio of Speaker: Professor Yang-Hui He is a Fellow at the London Institute for Mathematical Sciences at the Royal Institution, honorary professor at City State University George’s, University of London and at Nankai University, as well as a Tutor in mathematics at Merton College, Oxford University. After his BA in Princeton, MA in Cambridge, and PhD in MIT, he joined Oxford as the FitzJames Fellow and an STFC Advanced Fellow.
