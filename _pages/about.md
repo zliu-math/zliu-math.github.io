@@ -60,6 +60,6 @@ Keywords of my recent papers: stochastic analysis, reflected diffusions, geometr
 
 <br>
 
-### Upcoming
+### Upcoming Events
 
-* **[AI for Mathematics Workshop](/workshop/)**: I am organizing a workshop and colloquium focusing on the intersection of deep learning and pure mathematics, scheduled for **April 6–7, 2026**, at the Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS).
+* **[AI for Mathematics @SIMIS](/workshop/)**: I am organizing a workshop and focusing on AI for pure mathematics, scheduled for **April 7, 2026**, at the Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS).
