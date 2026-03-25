@@ -21,7 +21,10 @@ The workshop is designed as a **focused, invitation-based meeting**, bringing to
 ### Schedule
 
 **April 6 (SIMIS Colloquium)**
-* **14:00 - 15:00**: *Yang-Hui He* - AI & the Future of Mathematics
+**Location:** 18F Auditorium, SIMIS (Shanghai Institute for Mathematics and Interdisciplinary Sciences), Shanghai, China, 200433  
+ **14:00 - 15:00**: *Yang-Hui He* - AI & the Future of Mathematics
+ **Zoom Meeting ID: 831 6276 0618**
+ **Passcode: 478468**
 
 Abstract: Artificial intelligence (AI) is transforming society: the public has felt towards it the way civilisation felt towards the Industrial Revolution, only that the rapid change is happening at the scale of days rather than decades. In this talk, we invite the audience to see the influence of AI on theoretical research - pure mathematics and fundamental physics - within the last decade, how the very methods and philosophy of mathematical discovery are impacted. At the core is the question: can AI reason and wonder? Indeed, what is it to be human?
 
