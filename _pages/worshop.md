@@ -24,6 +24,9 @@ The workshop is designed as a <span style="color: var(--global-theme-color); fon
 
 **April 6 (SIMIS Colloquium)**
 
+
+![SIMIS Colloquium Poster](/assets/img/SIMISColloquiumyhh.png)
+
 **Location:** 18F Auditorium, SIMIS (Shanghai Institute for Mathematics and Interdisciplinary Sciences), Shanghai, China, 200433  
 * **14:00 - 15:00**: *<span style="color: var(--global-theme-color); font-weight: bold;">Yang-Hui He</span>* - AI & the Future of Mathematics
 * <span style="color: var(--global-theme-color); font-weight: bold;">Zoom Meeting ID: 831 6276 0618</span> | <span style="color: var(--global-theme-color); font-weight: bold;">Passcode: 478468</span>
