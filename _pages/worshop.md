@@ -55,6 +55,7 @@ For any inquiries, please contact zliu@simis.cn or ziran.liu@nyu.edu.
 
 ### 09:00–09:10  
 **Shing-Tung Yau**
+
 **Opening Remarks**
 
 ---
