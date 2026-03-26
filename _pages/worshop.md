@@ -38,9 +38,167 @@ For any inquiries, please contact zliu@simis.cn or ziran.liu@nyu.edu.
 
 
 **April 7 (Workshop)**
-* **09:00 - 09:10**: Opening Remarks
-* **09:30 - 10:30**: *TBA* - Title to be announced
-* *(More schedule details...)*
+# AI for Mathematics @ SIMIS
+
+## Tentative Program
+
+**April 7, 2026**  
+**18F Auditorium, SIMIS, Shanghai**
+
+**Format:** One-day workshop with invited talks and discussion  
+**Participants:** Approximately 50  
+**Organizer:** Ziran Liu  
+
+---
+
+## Morning Session
+
+### 09:00–09:10  
+**Shing-Tung Yau**
+**Opening Remarks**
+
+---
+
+### 09:10–09:55  
+**Yang-Hui He** *(in person)*  
+*The AI Mathematician*
+
+**Abstract**  
+We argue how AI can assist mathematical discovery in three ways: theorem-proving, conjecture formulation, and language processing. Inspired by initial experiments in geometry and string theory in 2017, we summarize how this emerging field has grown over the past years, and show how various machine-learning algorithms can help with pattern detection across disciplines in theoretical physics and pure mathematics. At the heart of the programme is the question of how AI will reshape the landscape of future theoretical research.
+
+**Bio**  
+Yang-Hui He is a professor of mathematics at the University of London and a member of the London Institute for Mathematical Sciences, as well as a tutor in mathematics at Merton College, Oxford. His research lies at the interface of geometry, number theory, and string theory, with recent emphasis on AI-guided mathematical discovery. His work explores how machine learning can assist in conjecture generation, pattern recognition, and the discovery of mathematical structures across disciplines.
+
+---
+
+### 09:55–10:00  
+Short Break
+
+---
+
+### 10:00–10:45  
+**Jeremy Avigad** *(remote)*  
+*TBA*
+
+**Abstract**  
+TBA.
+
+**Bio**  
+Jeremy Avigad is a professor at Carnegie Mellon University and Director of the Hoskinson Center for Formal Mathematics. He is a leading researcher in mathematical logic, formal verification, and interactive theorem proving. His work focuses on the formalization of mathematics and the development of tools for machine-assisted reasoning, playing a central role in AI for Mathematics.
+
+---
+
+### 10:45–10:50  
+Short Break
+
+---
+
+### 10:50–11:35  
+**Leonardo de Moura** *(remote)*  
+*Lean: Machine-Checked Mathematics and Verified Programming*
+
+**Abstract**  
+Lean enables machine-checkable proofs and trustworthy collaboration between mathematicians, programmers, and AI systems. We discuss its impact on mathematics, software verification, and AI.
+
+**Bio**  
+Leonardo de Moura is the chief architect and co-founder of the Lean Focused Research Organization and was previously a senior principal applied scientist at Amazon Web Services. He is the creator of Lean and co-creator of the Z3 SMT solver, and his work is foundational in automated reasoning and machine-checked mathematics.
+
+---
+
+### 11:35–11:55  
+Coffee Break
+
+---
+
+### 11:55–12:40  
+**Yijun Yuan** *(in person)*  
+*Formalization of Non-Archimedean Functional Analysis*
+
+**Abstract**  
+We formalize spherically complete spaces in Lean 4 and develop applications including Hahn–Banach and orthogonality results in non-Archimedean analysis.
+
+**Bio**  
+Yijun Yuan is a postdoctoral researcher at the Institute for Theoretical Sciences at Westlake University. His research focuses on arithmetic geometry, number theory, and Lean-based formalization of advanced mathematics, contributing to the expansion of machine-checkable mathematical knowledge.
+
+---
+
+## Lunch Break
+
+**12:40–14:10**
+
+---
+
+## Afternoon Session
+
+### 14:10–14:55  
+**Bin Dong** *(in person)*  
+*AI for Mathematics: From Digitization to Automated Reasoning*
+
+**Abstract**  
+We discuss how AI enables mathematical research and emphasize formalization as the key step toward automated reasoning.
+
+**Bio**  
+Bin Dong is a Boya Distinguished Professor at Peking University. His research spans machine learning, scientific computing, and computational mathematics. He has played a leading role in developing AI for Mathematics, particularly in formalization and automated reasoning systems.
+
+---
+
+### 14:55–15:00  
+Short Break
+
+---
+
+### 15:00–15:45  
+**Lihong Zhi** *(in person)*  
+*Algebraic Reasoning in Formal Mathematics*
+
+**Abstract**  
+We integrate Lean with symbolic computation systems to enable efficient and verifiable algebraic reasoning.
+
+**Bio**  
+Lihong Zhi is a professor at the Academy of Mathematics and Systems Science, Chinese Academy of Sciences, and Director of the Key Laboratory of Mathematics Mechanization. Her work focuses on symbolic computation and automated reasoning, especially bridging formal proof systems with efficient algebraic computation.
+
+---
+
+### 15:45–16:05  
+Coffee Break
+
+---
+
+## Late Afternoon Session
+
+### 16:05–16:50  
+**Johan Commelin** *(remote)*  
+*TBA*
+
+**Abstract**  
+TBA.
+
+**Bio**  
+Johan Commelin is an assistant professor at Utrecht University and Director of the Mathlib Initiative. His research focuses on formal mathematics, type theory, and large-scale mathematical libraries, playing a key role in the infrastructure of modern theorem-proving systems.
+
+---
+
+### 16:50–16:55  
+Short Break
+
+---
+
+### 16:55–17:40  
+**Kevin Buzzard** *(remote)*  
+*The Role of Autoformalisation in Mathematics*
+
+**Abstract**  
+We discuss the importance of formalization and the emerging role of large-scale autoformalization in mathematics.
+
+**Bio**  
+Kevin Buzzard is a professor of pure mathematics at Imperial College London. He is a leading advocate of formalization in mathematics and has played a major role in promoting Lean and formal proof methods in research. His recent work focuses on autoformalization and large-scale formal mathematical corpora.
+
+---
+
+## Closing
+
+### 17:40–17:45  
+**Closing Remarks**
 
 ### Registration
 This is an invited workshop, for registration or inquiries, please contact me directly.
