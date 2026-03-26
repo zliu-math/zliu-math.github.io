@@ -26,7 +26,7 @@ The workshop is designed as a <span style="color: var(--global-theme-color); fon
 
 
 <div style="width: 50%; margin: 30px auto; text-align: center;">
-  {% include figure.liquid path="assets/img//assets/img/SIMISColloquiumyhh.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  {% include figure.liquid path="assets/img/SIMISColloquiumyhh.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 
 
