@@ -182,7 +182,7 @@ Short Break
 
 **Abstract:** We discuss the importance of formalization and the emerging role of large-scale autoformalization in mathematics.
 
-**Bio:** Kevin Buzzard is a professor of pure mathematics at Imperial College London. He is a leading advocate of formalization in mathematics and has played a major role in promoting Lean and formal proof methods in research. His recent work focuses on autoformalization and large-scale formal mathematical corpora.
+**Bio:** Kevin Buzzard is a professor of pure mathematics at Imperial College London. He is a leading advocate of formalization in mathematics and has played a major role in promoting Lean and formal proof methods in research.
 
 ---
 
