@@ -79,9 +79,9 @@ Short Break
 ---
 
 ### 10:00–10:45  
-<span style="color: var(--global-theme-color); font-weight: bold;">Jeremy Avigad</span> *(remote)* *TBA*
+<span style="color: var(--global-theme-color); font-weight: bold;">Jeremy Avigad</span> *(remote)* *Reflections on Formalization, Neurosymbolic Reasoning, and the Future of Mathematics*
 
-**Abstract:** TBA.
+**Abstract:** In 2002, I formalized the law of quadratic reciprocity in Isabelle with students at Carnegie Mellon. The library was still young; we found and fixed a mistake in the definition of ``prime number'' on the integers. AI and formal methods for mathematics have come a long way since then. In this talk, I will share a personal perspective on how we got here, reflect on where we stand, and speculate as to how mathematics may change in the years ahead.
 
 **Bio:** Jeremy Avigad is a professor at Carnegie Mellon University and Director of the Hoskinson Center for Formal Mathematics. He is a leading researcher in mathematical logic, formal verification, and interactive theorem proving. His work focuses on the formalization of mathematics and the development of tools for machine-assisted reasoning, playing a central role in AI for Mathematics.
 
@@ -154,9 +154,19 @@ Coffee Break
 ## Late Afternoon Session
 
 ### 16:05–16:50  
-<span style="color: var(--global-theme-color); font-weight: bold;">Johan Commelin</span> *(remote)* *TBA*
+<span style="color: var(--global-theme-color); font-weight: bold;">Johan Commelin</span> *(remote)* *Mathlib: A Living Library of Machine-Checked Mathematics*
 
-**Abstract:** TBA.
+**Abstract:** Mathlib is the largest coherent library of formal mathematics ever built: over 2.1 million lines of Lean code, written and reviewed by more than 750 contributors.
+I will explain what makes Mathlib work, as a mathematical artifact, as a community effort, and as infrastructure for AI.
+
+Technically, Mathlib scales through aggressive generality, uniform API design, and continuous refactoring.
+Socially, a globally distributed community maintains coherence through careful review and dedicated editorial support.
+
+Crucially, Mathlib is human-curated.
+Every definition has been reviewed by expert mathematicians for correctness, generality, and mathematical naturality.
+In an age where AI systems increasingly generate formal mathematics, this may be Mathlib's strongest asset:
+when a statement uses Mathlib's definitions, you know they are not hallucinated; they mean what you think they mean.
+In the end, that trust is what enables humans and machines to do serious mathematics together..
 
 **Bio:** Johan Commelin is an assistant professor at Utrecht University and Director of the Mathlib Initiative. His research focuses on formal mathematics, type theory, and large-scale mathematical libraries, playing a key role in the infrastructure of modern theorem-proving systems.
 
