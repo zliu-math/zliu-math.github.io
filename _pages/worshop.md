@@ -53,6 +53,9 @@ We would greatly appreciate your participation and your help in sharing this inv
 **Participants:** Approximately 50  
 **Organizer:** Ziran Liu  
 
+
+* <span style="color: var(--global-theme-color); font-weight: bold;">Zoom Meeting ID: 893 1693 9565</span> | <span style="color: var(--global-theme-color); font-weight: bold;">Passcode: 697460</span>
+
 ---
 
 ## Morning Session
