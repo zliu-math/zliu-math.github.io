@@ -45,9 +45,15 @@ We would greatly appreciate your participation and your help in sharing this inv
 **April 7 (Workshop)**
 # AI for Mathematics @ SIMIS
 
-## Tentative Program
+## Program
 
 **April 7, 2026** **18F Auditorium, SIMIS, Shanghai**
+
+
+<div style="width: 50%; margin: 30px auto; text-align: center;">
+  {% include figure.liquid path="assets/img/SIMISAI4Mathworkshop.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+
 
 **Format:** One-day workshop with invited talks and discussion  
 **Participants:** Approximately 50  
@@ -57,6 +63,10 @@ We would greatly appreciate your participation and your help in sharing this inv
 * <span style="color: var(--global-theme-color); font-weight: bold;">Zoom Meeting ID: 893 1693 9565</span> | <span style="color: var(--global-theme-color); font-weight: bold;">Passcode: 697460</span>
 
 ---
+
+
+
+
 
 ## Morning Session
 
