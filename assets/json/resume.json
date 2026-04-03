@@ -21,7 +21,9 @@
       "startDate": "2024-01-01",
       "endDate": "",
       "summary": "Research Institute of Intelligent Complex Systems. Conducting research on complex systems and stochastic processes, with applications to optimization and intelligent systems.",
-      "highlights": ["Collaborating with interdisciplinary teams on mathematical models for system analysis."]
+      "highlights": [
+        "Collaborating with interdisciplinary teams on mathematical models for system analysis."
+      ]
     },
     {
       "name": "SIMIS (Shanghai Institute for Mathematics and Interdisciplinary Sciences)",
@@ -30,7 +32,9 @@
       "startDate": "2024-01-01",
       "endDate": "",
       "summary": "Leading research initiatives on mathematical modeling, queueing theory, and stochastic analysis.",
-      "highlights": ["Developing solutions to large-scale optimization problems for interdisciplinary projects."]
+      "highlights": [
+        "Developing solutions to large-scale optimization problems for interdisciplinary projects."
+      ]
     },
     {
       "name": "UC Berkeley, Department of Statistics",
@@ -39,7 +43,9 @@
       "startDate": "2024-03-01",
       "endDate": "2024-07-01",
       "summary": "Undergraduate courses on probability theory, including stochastic processes, Markov chains, CLT, and Poisson processes.",
-      "highlights": ["Developed teaching materials to strengthen conceptual understanding of random variables."]
+      "highlights": [
+        "Developed teaching materials to strengthen conceptual understanding of random variables."
+      ]
     },
     {
       "name": "Cardinal Operations",
@@ -48,7 +54,9 @@
       "startDate": "2024-01-01",
       "endDate": "2024-12-31",
       "summary": "Conducted research on stochastic processes, reflected Brownian motion, and queueing theory applications.",
-      "highlights": ["Collaborated with data science and engineering teams to implement optimization strategies."]
+      "highlights": [
+        "Collaborated with data science and engineering teams to implement optimization strategies."
+      ]
     },
     {
       "name": "NYU Stern School of Business",
@@ -71,7 +79,9 @@
       "startDate": "2016-09-01",
       "endDate": "2023-05-01",
       "score": "3.91/4.0",
-      "courses": ["Focus: Probability and Its Applications"]
+      "courses": [
+        "Focus: Probability and Its Applications"
+      ]
     },
     {
       "institution": "New York University, Courant Institute of Mathematical Sciences",
@@ -82,7 +92,9 @@
       "startDate": "2014-09-01",
       "endDate": "2016-05-01",
       "score": "3.93/4.0",
-      "courses": ["Focus: Probability and Differential Geometry"]
+      "courses": [
+        "Focus: Probability and Differential Geometry"
+      ]
     },
     {
       "institution": "Nankai University, Chern Institute of Mathematics",
@@ -93,7 +105,9 @@
       "startDate": "2011-09-01",
       "endDate": "2014-06-01",
       "score": "4.0/4.0",
-      "courses": ["Focus: Differential Geometry, Global Analysis on Manifolds"]
+      "courses": [
+        "Focus: Differential Geometry, Global Analysis on Manifolds"
+      ]
     },
     {
       "institution": "Nankai University, School of Mathematical Sciences",
@@ -104,13 +118,15 @@
       "startDate": "2007-09-01",
       "endDate": "2011-06-01",
       "score": "3.85/4.0",
-      "courses": ["Honered, Shiing-Shen Chern Class"]
+      "courses": [
+        "Honored, Shiing-Shen Chern Class"
+      ]
     }
   ],
   "awards": [
-     {
+    {
       "title": "Invited Membership to Beta Gamma Sigma",
-      "date": "2023-09-023",
+      "date": "2023-09-23",
       "awarder": "Beta Gamma Sigma",
       "url": "",
       "summary": "Invited upon PhD graduation"
@@ -214,8 +230,6 @@
       "name": "Yifeng Yu",
       "icon": "fa-solid fa-user-tie",
       "reference": "Professor of Mathematics and Vice Chair Undergraduate Affairs, School of Physical Sciences, <br>University of California, Irvine. <br>Email: yifengy@uci.edu"
-    }  
+    }
   ]
-  
 }
-
