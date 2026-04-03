@@ -113,10 +113,17 @@
       "startDate": "2007-09-01",
       "endDate": "2011-06-01",
       "score": "3.85/4.0",
-      "courses": ["Shiing-Shen Chern Honor Class"]
+      "courses": ["Honered, Shiing-Shen Chern Class"]
     }
   ],
   "awards": [
+     {
+      "title": "Invited Membership to Beta Gamma Sigma",
+      "date": "2023-09-023",
+      "awarder": "Beta Gamma Sigma",
+      "url": "",
+      "summary": "Invited upon PhD graduation"
+    },
     {
       "title": "Ernest Kurnow Fellowship",
       "date": "2021-09-01",
@@ -146,29 +153,6 @@
       "issuer": "USA Weightlifting",
       "url": "",
       "icon": "fa-solid fa-dumbbell"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Approaching Prescribed Gaussian Curvature by Discrete Conformality",
-      "publisher": "Submitted, Preprint",
-      "releaseDate": "2025-01-01",
-      "url": "",
-      "summary": "Authors: Ziran Liu, Tianqi Wu"
-    },
-    {
-      "name": "Reflected Brownian Motion with Drift in a Wedge",
-      "publisher": "Queueing Systems: Theory and Applications",
-      "releaseDate": "2023-01-01",
-      "url": "",
-      "summary": "Authors: Peter Lakner, Ziran Liu, Josh Reed"
-    },
-    {
-      "name": "A Note on Hausdorff Multifractal Spectrum of Log-correlated Gaussian Multiplicative Chaos",
-      "publisher": "Preprint",
-      "releaseDate": "2020-01-01",
-      "url": "",
-      "summary": ""
     }
   ],
   "skills": [
@@ -211,19 +195,14 @@
   ],
   "references": [
     {
-      "name": "Joshua Reed",
-      "icon": "fa-solid fa-user-tie",
-      "reference": "Associate Professor and Deputy Chair, <br>NYU Stern. <br>Email: jreed@stern.nyu.edu"
-    },
-    {
       "name": "Paul Bourgade",
       "icon": "fa-solid fa-user-tie",
       "reference": "Professor of Mathematics, <br>NYU Courant. <br>Email: bourgade@cims.nyu.edu"
     },
     {
-      "name": "Wenqiang Xiao",
+      "name": "Chung Pang Mok",
       "icon": "fa-solid fa-user-tie",
-      "reference": "Professor of Technology, Operations, and Statistics, <br>NYU Stern. <br>Email: wx2@stern.nyu.edu"
+      "reference": "Professor of Mathematics, <br>Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS), and Fudan University. <br>Email: cpmok@simis.cn"
     },
     {
       "name": "Michel Mandjes",
@@ -231,10 +210,20 @@
       "reference": "Professor of Probability and Operations Research, <br>Universiteit Leiden. <br>Email: m.r.h.mandjes@math.leidenuniv.nl"
     },
     {
+      "name": "Joshua Reed",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Associate Professor and Deputy Chair, <br>NYU Stern. <br>Email: jreed@stern.nyu.edu"
+    },
+    {
+      "name": "Wenqiang Xiao",
+      "icon": "fa-solid fa-user-tie",
+      "reference": "Professor of Technology, Operations, and Statistics, <br>NYU Stern. <br>Email: wx2@stern.nyu.edu"
+    },
+    {
       "name": "Yifeng Yu",
       "icon": "fa-solid fa-user-tie",
       "reference": "Professor of Mathematics and Vice Chair Undergraduate Affairs, School of Physical Sciences, <br>University of California, Irvine. <br>Email: yifengy@uci.edu"
     }  
-  ],
+  ]
   
 }
