@@ -88,7 +88,7 @@ nav_order: 5
 An introduction to probability, emphasizing concepts and applications. Conditional expectation, independence, laws of large numbers. Discrete and continuous random variables. Central limit theorem. Selected topics such as the Poisson process, Markov chains, characteristic functions.
       </div>
       <div class="course-links">
-        <a href="#" class="btn btn-sm">Course Notes</a>
+        <a href="{{ '/assets/pdf/Berkeley_stat_134_notes.pdf' | relative_url }}" class="btn btn-sm">Course Notes</a>
       </div>
     </div>
   </div>
