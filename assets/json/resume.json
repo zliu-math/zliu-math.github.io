@@ -40,11 +40,11 @@
       "name": "UC Berkeley, Department of Statistics",
       "position": "Lecturer",
       "url": "https://statistics.berkeley.edu/",
-      "startDate": "2024-03-01",
+      "startDate": "2024-05-01",
       "endDate": "2024-07-01",
       "summary": "Undergraduate courses on probability theory, including stochastic processes, Markov chains, CLT, and Poisson processes.",
       "highlights": [
-        "Developed teaching materials to strengthen conceptual understanding of random variables."
+        "Developed full course notes for teaching Stat-134."
       ]
     },
     {
