@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/research/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "Current Projects of Research and Patents",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
