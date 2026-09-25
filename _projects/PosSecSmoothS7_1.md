@@ -4,7 +4,7 @@ title: Positive curvature - open verification
 description: Executed SageMath computations, exact certificates, and bilingual explanations for the v12 manuscript.
 importance: 1
 category: Research
-published: true
+published: false
 permalink: /projects/PosSecSmoothS7/
 ---
 
