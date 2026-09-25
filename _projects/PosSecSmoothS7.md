@@ -22,14 +22,14 @@ verification_files:
   checksum: /assets/verification/PosSecSmoothS7/v12/verification_package_v12.zip.sha256
 ---
 
-**Yang-Hui He · Ziran Liu · Shing-Tung Yau**  
-Computational companion to the submitted **v12 manuscript**. Reference run: **25 September 2026**, using **SageMath 10.9**.
+**Yang-Hui He (Royal Institution, LIMS, University of Oxford)· Ziran Liu (SIMIS)· Shing-Tung Yau (Tsinghua University)**  
+Computational companion to the **manuscript**. Reference run: **25 September 2026**, using **SageMath 10.9**.
 
 [Downloads](#downloads) · [What was checked](#what-was-checked) · [Verification scope](#verification-scope) · [Reproduce the results](#reproduce-the-results)
 
 The paper's main assertion is that every smooth homotopy seven-sphere admits a smooth Riemannian metric with strictly positive sectional curvature at every point and on every tangent two-plane. Its construction is intended to cover all **28 oriented diffeomorphism classes**.
 
-This companion makes the computational parts of that argument inspectable: it provides executed calculations, exact certificates, raw results, and explanations of how those calculations support the paper. It is **not an end-to-end formal machine proof** of the main theorem.
+This companion makes the computational parts of that argument inspectable: it provides executed calculations, exact certificates, results, and explanations of how those calculations support the paper. It is **not an end-to-end formal machine proof** of the main theorem, it is a **computer-assisted verification (by SageMath) of the proof**.
 
 ## Recorded result
 
