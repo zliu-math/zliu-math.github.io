@@ -20,9 +20,9 @@ verification_files:
   certificates: /assets/verification/PosSecSmoothS7/v12/exact_certificates.zip
   results: /assets/verification/PosSecSmoothS7/v12/results.json
   checksum: /assets/verification/PosSecSmoothS7/v12/verification_package_v12.zip.sha256
----
+--- 
 
-**Yang-Hui He (Royal Institution, LIMS, University of Oxford)· Ziran Liu (SIMIS)· Shing-Tung Yau (Tsinghua University)**  
+**[Yang-Hui He](https://lims.ac.uk/yang-hui-he/)** (Royal Institution, LIMS, University of Oxford) · **[Ziran Liu](https://zliu-math.github.io/)** (SIMIS) · **[Shing-Tung Yau](https://scholar.google.com/citations?user=5_3BcJ0AAAAJ&hl=en)** (Tsinghua University)
 Computational companion to the **manuscript**. Reference run: **25 September 2026**, using **SageMath 10.9**.
 
 [Downloads](#downloads) · [What was checked](#what-was-checked) · [Verification scope](#verification-scope) · [Reproduce the results](#reproduce-the-results)
