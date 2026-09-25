@@ -1,0 +1,9 @@
+{
+  "archive": "verification_package_v12.zip",
+  "bytes": 4021653,
+  "crc_valid": true,
+  "entries": 177,
+  "sha256": "049a5eed4bebce97e8be97ab9720b1dd61a3340fec70c8bb16855f0c11da2d32",
+  "source_sha256": "ea27de068cd78871211d0a1ac102e76b65c7bd1f033267fb24a2c5f8dc423f9e",
+  "verified_manifest_files": 176
+}

@@ -1,0 +1,1014 @@
+{
+  "checks": [
+    {
+      "claim": "The submitted source is exactly the reviewed v12 file, not a previous manuscript",
+      "evidence": {
+        "actual_sha256": "ea27de068cd78871211d0a1ac102e76b65c7bd1f033267fb24a2c5f8dc423f9e",
+        "reviewed_sha256": "ea27de068cd78871211d0a1ac102e76b65c7bd1f033267fb24a2c5f8dc423f9e"
+      },
+      "id": "S01",
+      "module": "source_binding",
+      "status": "PASS"
+    },
+    {
+      "claim": "Every inventoried labeled display matches the separately frozen source contract",
+      "evidence": {
+        "display_blocks": 80,
+        "labels": 92
+      },
+      "id": "S02",
+      "module": "source_binding",
+      "status": "PASS"
+    },
+    {
+      "claim": "This v12 release does not silently change the supplied manuscript",
+      "evidence": "Both source copies are preserved byte-for-byte.",
+      "id": "S03",
+      "module": "source_binding",
+      "status": "PASS"
+    },
+    {
+      "claim": "Quaternion multiplication is associative",
+      "evidence": "Four polynomial identities over QQ in 12 independent real variables.",
+      "id": "T01",
+      "module": "topology",
+      "nonzero_residuals": [],
+      "residual_count": 4,
+      "status": "PASS"
+    },
+    {
+      "claim": "Quaternion norm is multiplicative and conjugation reverses products",
+      "evidence": "Hamilton multiplication was expanded from components; no sampled values.",
+      "id": "T02",
+      "module": "topology",
+      "nonzero_residuals": [],
+      "residual_count": 5,
+      "status": "PASS"
+    },
+    {
+      "claim": "The quotient coordinate u^{-1} x u is invariant under (x,u)->(q x q^{-1},qu)",
+      "evidence": "Four generic denominator-cleared polynomial identities; nonzero norms required for inverses.",
+      "id": "T03",
+      "module": "topology",
+      "nonzero_residuals": [],
+      "residual_count": 4,
+      "status": "PASS"
+    },
+    {
+      "claim": "Bundle transition and right principal action commute",
+      "evidence": "Associativity applied to g_n(x), u, h; smoothness of g_n is a separate analytic premise.",
+      "id": "T04",
+      "module": "topology",
+      "nonzero_residuals": [],
+      "residual_count": 4,
+      "status": "PASS"
+    },
+    {
+      "claim": "The marked transition is conjugation by g_n(y), after imposing the equivariance premise",
+      "evidence": "Four exact denominator-cleared identities in arbitrary quaternion components; u and g_n(x) are unit in the geometric application.",
+      "id": "T09",
+      "module": "topology",
+      "nonzero_residuals": [],
+      "residual_count": 4,
+      "status": "PASS"
+    },
+    {
+      "claim": "Opposite conjugations are inverse when the conjugating quaternion is unit",
+      "evidence": "The polynomial identity is C_b(C_bbar(x))=|b|^4 x. The manifold inverse formula additionally uses b(sigma(x))=b(x), proved using equivariance in the manuscript.",
+      "id": "T10",
+      "module": "topology",
+      "nonzero_residuals": [],
+      "residual_count": 4,
+      "status": "PASS"
+    },
+    {
+      "claim": "The induction step for iterated conjugation has the required multiplication order",
+      "evidence": "A generic two-step conjugation identity, not sampling of the nonlinear Blakers--Massey map. The all-integer induction is human reasoning from this group law and invariance of b along sigma-orbits.",
+      "id": "T11",
+      "module": "topology",
+      "nonzero_residuals": [],
+      "residual_count": 4,
+      "status": "PASS"
+    },
+    {
+      "claim": "K^* K = 4((|p|^2+|Im w|^2)I-p p^T-Im(w) Im(w)^T)",
+      "evidence": "Exact 3-by-3 matrix identity.",
+      "id": "T05",
+      "module": "topology",
+      "nonzero_residuals": [],
+      "residual_count": 9,
+      "status": "PASS"
+    },
+    {
+      "claim": "On |x|=1, ||K_x v||^2 <= 4||v||^2, including all orbit ranks",
+      "evidence": "The deficit is the displayed sum of squares, valid for every real vector v.",
+      "id": "T06",
+      "module": "topology",
+      "nonzero_residuals": [],
+      "residual_count": 1,
+      "status": "PASS"
+    },
+    {
+      "claim": "Blakers--Massey scalar factor has endpoint limits pi and pi/2",
+      "evidence": "Exact symbolic limits. Limits alone are not an all-orders smoothness proof.",
+      "id": "T07",
+      "module": "topology",
+      "nonzero_residuals": [],
+      "residual_count": 2,
+      "status": "PASS"
+    },
+    {
+      "claim": "Residues 0,...,27 give 28 labels and orientation reversal gives 15 orbits",
+      "evidence": "Finite modular bookkeeping only; the geometric interpretation uses DPR Theorem 1.",
+      "id": "T08",
+      "module": "topology",
+      "nonzero_residuals": [],
+      "residual_count": 2,
+      "status": "PASS"
+    },
+    {
+      "claim": "Audited connection formulas are bound to the submitted v12 source",
+      "evidence": {
+        "audited_sha256": "ea27de068cd78871211d0a1ac102e76b65c7bd1f033267fb24a2c5f8dc423f9e",
+        "label_lines": {
+          "eq:HHHH": [
+            1031
+          ],
+          "eq:HHHV": [
+            989
+          ],
+          "eq:HHVV": [
+            979
+          ],
+          "eq:HVHV": [
+            974
+          ],
+          "eq:HVVV": [
+            983
+          ],
+          "eq:Koszul1": [
+            955
+          ],
+          "eq:Koszul2": [
+            959
+          ],
+          "eq:Lambda": [
+            890
+          ],
+          "eq:ONeill": [
+            1376
+          ],
+          "eq:Plucker": [
+            1072
+          ],
+          "eq:VVVV": [
+            1041
+          ],
+          "eq:boundarydata": [
+            1282
+          ],
+          "eq:bracketcontraction": [
+            1100
+          ],
+          "eq:brackets": [
+            944
+          ],
+          "eq:master": [
+            1170
+          ],
+          "eq:omega": [
+            1318
+          ],
+          "eq:potentials": [
+            1307
+          ],
+          "eq:reserve": [
+            1227
+          ],
+          "eq:sharp-master": [
+            1160
+          ],
+          "eq:smallA": [
+            1194
+          ],
+          "eq:smallB": [
+            1197
+          ],
+          "eq:smallC": [
+            1201
+          ],
+          "eq:southlowerbound": [
+            1233
+          ],
+          "eq:southsourceform": [
+            1296
+          ],
+          "eq:verticalderivative": [
+            947
+          ],
+          "prop:concave": [
+            880
+          ],
+          "thm:southfilling": [
+            1260
+          ]
+        },
+        "scope": "Version binding and unique labels; this does not parse or prove TeX semantics.",
+        "sha256": "ea27de068cd78871211d0a1ac102e76b65c7bd1f033267fb24a2c5f8dc423f9e"
+      },
+      "id": "connection.v12_source_binding",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Quaternion vector fields independently confirm bracket and equivariance signs",
+      "evidence": {
+        "bracket": "[F_a,F_b]=F_[e_a,e_b]",
+        "equivariance_derivative": "d(Ad(exp(-t e_a))W)/dt=-[e_a,W]",
+        "exact_component_checks": 45,
+        "fundamental_field": "F_a(q)=q e_a"
+      },
+      "id": "connection.right_action_sign",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Koszul reconstruction agrees with Koszul formula",
+      "evidence": {
+        "base_dimension": 7,
+        "exact_component_comparisons": 594,
+        "failures": []
+      },
+      "id": "connection.koszul",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Koszul reconstruction agrees with HVHV formula",
+      "evidence": {
+        "base_dimension": 7,
+        "exact_component_comparisons": 441,
+        "failures": []
+      },
+      "id": "connection.hvhv",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Koszul reconstruction agrees with HHVV formula",
+      "evidence": {
+        "base_dimension": 7,
+        "exact_component_comparisons": 441,
+        "failures": []
+      },
+      "id": "connection.hhvv",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Koszul reconstruction agrees with HVVV formula",
+      "evidence": {
+        "base_dimension": 7,
+        "exact_component_comparisons": 189,
+        "failures": []
+      },
+      "id": "connection.hvvv",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Koszul reconstruction agrees with HHHV formula",
+      "evidence": {
+        "base_dimension": 7,
+        "exact_component_comparisons": 1029,
+        "failures": []
+      },
+      "id": "connection.hhhv",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Koszul reconstruction agrees with HHHH formula",
+      "evidence": {
+        "base_dimension": 7,
+        "exact_component_comparisons": 2401,
+        "failures": []
+      },
+      "id": "connection.hhhh",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Koszul reconstruction agrees with VVVV formula",
+      "evidence": {
+        "base_dimension": 7,
+        "exact_component_comparisons": 81,
+        "failures": []
+      },
+      "id": "connection.vvvv",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "A deliberately reversed HVHV bracket sign is rejected",
+      "evidence": {
+        "deliberate_error": "Replace -<[e_0,e_1],Omega_01>/4 by its positive opposite.",
+        "rejection_residual": "-O0_1_2"
+      },
+      "id": "connection.curvature_sign_negative_control",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "The printed Pluecker identity has the correct sign",
+      "evidence": {
+        "symbolic_identities": 441
+      },
+      "id": "connection.plucker",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Linear curvature terms sum to -3 J/2",
+      "evidence": {
+        "alpha_gamma": "-J",
+        "beta_beta": "-J/2",
+        "orientation_witness": "Omega_12=e_3, X=e_1,Y=e_2,U=e_1,V=e_2 gives J=2 and total=-3.",
+        "total": "-3*J/2"
+      },
+      "id": "connection.bracket_contraction",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Derived horizontal correction contracts to -3 r^2 |Omega(X,Y)|^2/4",
+      "evidence": {
+        "exact_polynomial_residual": "0"
+      },
+      "id": "connection.horizontal_section",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "h^2+m^2+k^2=|(X+U) wedge (Y+V)|^2",
+      "evidence": {
+        "exact_polynomial_residual": "0"
+      },
+      "id": "connection.bivector_norm",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "The SU(2) bracket bound is an exact norm identity",
+      "evidence": {
+        "fibre_normalization": "[e_a,e_b]=2 epsilon_abc e_c",
+        "identity": "|[U,V]|^2=4|U wedge V|^2"
+      },
+      "id": "connection.quaternion_bracket_norm",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Cauchy--Schwarz and the fibre dimension-three array factor are exact",
+      "evidence": {
+        "HVVV_array": "sum_abc(delta_ab w_c-delta_ac w_b)^2=4|w|^2",
+        "cauchy_sos": "|a|^2|b|^2-<a,b>^2=sum_(i<j)(a_i b_j-a_j b_i)^2",
+        "ordered_skew_pair_norm": "Full squared norm = 2 * restricted squared norm, per skew pair"
+      },
+      "id": "connection.norm_kernels",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "C=4 dominates every sharp-master loss",
+      "evidence": {
+        "nonnegative_gap": "13/4*r^2*M0^2*h^2 + 7/2*r^2*M0^2*m^2 + 3*r^2*M0^2*h*k + 2*r*M0*T*m*k + 2*r*M1*h*m + M0*h*k"
+      },
+      "id": "connection.common_constant",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Every absorption uses a certified nonnegative square",
+      "evidence": {
+        "identity": "p x^2 + a^2 y^2/(4p)-a x y = (2p x-a y)^2/(4p), p>0"
+      },
+      "id": "connection.young_identity",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "The written losses leave at least the claimed reserve",
+      "evidence": {
+        "claimed_mixed": "1/8",
+        "horizontal_over_kappa": "1/2",
+        "mixed_over_eps_Lambda": "1/8",
+        "vertical_times_eps": "1/8"
+      },
+      "id": "connection.reserve_arithmetic",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "All three printed Young coefficients are sufficient",
+      "evidence": {
+        "assumptions": [
+          "r^2 <= 2 eps",
+          "T <= eps D0/2",
+          "eps D0 M0 <= 1",
+          "2 eps M0 <= 1"
+        ],
+        "hk_required_coefficient": "8 C^2 M0^2/kappa; printed 8",
+        "hm_required_coefficient": "4 C^2 eps/kappa (M1+1)^2; printed 8",
+        "km_required_coefficient": "C^2 eps^4 D0^2 M0^2; printed 2"
+      },
+      "id": "connection.young_coefficients",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Each smallness hypothesis supplies its assigned loss budget",
+      "evidence": {
+        "cleared_denominator_identities": 7,
+        "failures": [],
+        "premises": {
+          "derivative_mixed_loss": "kap Lam-64 C^2 (M1+1)^2 >= 0; denominator 8 kap > 0",
+          "hessian_loss": "Lam-4 eps D0^2 >= 0; denominator 16 > 0",
+          "hk_to_vertical": "64 C^2 eps M0^2 <= kap; denominator 8 eps kap > 0",
+          "horizontal_initial": "kap-8 C eps M0^2 >= 0; 2 eps-r2 >= 0",
+          "km_to_mixed": "Lam-32 C^2 eps^3 D0^2 M0^2 >= 0; denominator 16 > 0",
+          "omega_mixed_loss": "Lam-16 C M0^2 >= 0; 2 eps-r2 >= 0; denominator 8 > 0",
+          "vertical_initial": "2 eps^3 D0^2 <= 1; denominator 8 eps > 0"
+        }
+      },
+      "id": "connection.smallness_implications",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Differentiating r=sqrt(eps) exp(eps phi/2) gives the claimed Hessian tensor",
+      "evidence": {
+        "formula": "-Hess(r)/r = -eps Hess(phi)/2 - eps^2 dphi tensor dphi/4",
+        "verification": "Symbolic arbitrary phi(z0,z1), including mixed derivatives, in normal coordinates"
+      },
+      "id": "connection.radius_chain_rule",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Southern r, logarithmic slope and Hessian have the printed signs",
+      "evidence": {
+        "Hess_phi_angular": "A0*cos(t)",
+        "Hess_phi_radial": "A0*cos(t)",
+        "N_radial": "-1/4*A0^2*ee^2*sin(t)^2 - 1/2*A0*ee*cos(t)",
+        "concavity": "On a<=t<=pi with a>pi/2: -A0 cos(t)>=A0|cos(a)|.",
+        "r_prime_over_r": "1/2*A0*ee*sin(t)"
+      },
+      "id": "south.radius_derivatives",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Pole parity, mixed pole coefficient, boundary form and slope scaling agree",
+      "evidence": {
+        "limit_eps_to_zero": "A0 sin(a)/2",
+        "outward_form": "-(cos(a)/sin(a)) |X|^2 - (eps A0 sin(a)/2) |U|^2",
+        "polar_radius": "sqrt(ee)*e^(1/2*A0*ee*cos(rho))",
+        "pole_N": "eps A0/2",
+        "q_s_over_r_a_squared": "1/2*A0*e^(A0*ee*cos(t))*sin(t)",
+        "smoothness_scope": "Even radial function and vanishing potential near pole; global bundle smoothness is a geometric premise."
+      },
+      "id": "south.pole_and_boundary",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Maurer--Cartan gives the stated cutoff curvature",
+      "evidence": {
+        "curvature": "chi^2*theta_square - chi*theta_square + dchi_theta",
+        "gauge_transform": "Ad(g^-1)((chi-1) dg g^-1)+g^-1 dg=chi g^-1 dg"
+      },
+      "id": "south.connection_curvature",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Quaternion multiplication verifies the southern gauge transformation",
+      "evidence": {
+        "denominator_cleared": "|g|^4, positive for g != 0",
+        "exact_component_checks": 4,
+        "identity": "g^-1 ((chi-1) dg g^-1) g + g^-1 dg = chi g^-1 dg",
+        "limitation": "The actual smooth global g_n and its equivariance are geometric inputs."
+      },
+      "id": "south.noncommutative_gauge",
+      "module": "connection",
+      "status": "PASS"
+    },
+    {
+      "claim": "Global marked-disk identification, action freeness, and O'Neill descent are external to this symbolic module",
+      "evidence": "This module certifies the displayed local algebra; it does not replace bundle topology or a proof of the Riemannian-submersion theorem.",
+      "id": "south.external_geometry",
+      "module": "connection",
+      "status": "UNVERIFIED"
+    },
+    {
+      "claim": "The infinitesimal conjugation map is tangent and ||K_x|| <= 2.",
+      "evidence": "Exact polynomial Gram identity and sum-of-squares certificate on |x|=1.",
+      "id": "N01",
+      "module": "north",
+      "status": "PASS"
+    },
+    {
+      "claim": "The star-horizontal graph and boundary cometric have the stated factors and signs.",
+      "evidence": "Generic 6 by 3 K; all matrix identities are exact over a rational function field.",
+      "id": "N02",
+      "module": "north",
+      "status": "PASS"
+    },
+    {
+      "claim": "Both area estimates are valid, including the mixed-area factor 8.",
+      "evidence": "Exact tensor, Gram determinant, radial linearity and determinant-one shear identities; apply operator norm after orthogonalization.",
+      "id": "N03",
+      "module": "north",
+      "status": "PASS"
+    },
+    {
+      "claim": "The complete doubly warped curvature operator has exactly the five claimed blocks.",
+      "evidence": "Independently reconstructed from the full 10-dimensional metric 2-jet: 45 diagonal entries match and 1980 off-diagonal entries vanish exactly.",
+      "id": "N04",
+      "module": "north",
+      "status": "PASS"
+    },
+    {
+      "claim": "The profile derivatives, curvature coefficients and center Taylor jet are correct.",
+      "evidence": "Exact symbolic differentiation and vanishing ODE Taylor defect.",
+      "id": "N05",
+      "module": "north",
+      "status": "PASS"
+    },
+    {
+      "claim": "The global elementary lower bound is valid for every x>0.",
+      "evidence": "Exact minimizer factorization and rational fourth-power comparison; positive convergent sinh series supplies the preceding inequality.",
+      "id": "N06",
+      "module": "north",
+      "status": "PASS"
+    },
+    {
+      "claim": "The radial criterion and the claimed uniform P bound follow with strict reserve.",
+      "evidence": "Rational positive-coefficient certificate; elementary exponential-series bounds avoid numerical approximations.",
+      "id": "N07",
+      "module": "north",
+      "status": "PASS"
+    },
+    {
+      "claim": "The angular curvature criterion holds uniformly and leaves at least half the angular coefficient.",
+      "evidence": "Exact coefficient arithmetic combines delta^3 A0 Fa <= 1/(128(1+C_eta)), the density bound and N06.",
+      "id": "N08",
+      "module": "north",
+      "status": "PASS"
+    },
+    {
+      "claim": "The small-parameter northern inequalities and matching boundary data coexist.",
+      "evidence": "An explicit positive eps_N is supplied after delta and finite ell_N are fixed; no lower bound on eps conflicts with the southern upper bounds.",
+      "id": "N09",
+      "module": "north",
+      "status": "PASS"
+    },
+    {
+      "claim": "There is an explicit exact witness for the northern parameter inequalities.",
+      "evidence": "All final comparisons are rational; e<4 gives the finite length and boundary derivative bounds.",
+      "id": "N10",
+      "module": "north",
+      "status": "PASS"
+    },
+    {
+      "claim": "The outward shape terms cancel exactly in the fibre directions; the stated boundary margin is positive and sharp.",
+      "evidence": "Exact rational eigenvalue identity and nonnegative gap factorization for 0<=b<=4; sharp eigenvalue 4 verified.",
+      "id": "N11",
+      "module": "north",
+      "status": "PASS"
+    },
+    {
+      "claim": "The announced positive quotient lower bound follows from the verified coefficients.",
+      "evidence": "N07/N08 plus elementary exponential monotonicity and the second exterior-power operator norm inequality.",
+      "id": "N12",
+      "module": "north",
+      "status": "PASS"
+    },
+    {
+      "claim": "Global analytic/topological hypotheses needed to turn the exact north certificates into a complete filling and gluing theorem.",
+      "evidence": "Not formalized: smooth eta and inverse profile, global quotient marking, earlier southern theorem and the subsequent gluing theorem. These are distinguished from the exact checks above.",
+      "id": "N13",
+      "module": "north",
+      "status": "UNVERIFIED"
+    },
+    {
+      "claim": "Cubic interpolant matches values and first normal derivatives at both interfaces.",
+      "evidence": "Four identities in QQ(z,t,a,b,p,q), with t != 0; each residual is exactly zero.",
+      "id": "gluing.hermite.endpoint_jets",
+      "module": "gluing",
+      "nonzero_residuals": [],
+      "residual_count": 4,
+      "status": "PASS"
+    },
+    {
+      "claim": "Displayed first and second derivatives are exact.",
+      "evidence": "Formal differentiation of the interpolant over the exact rational-function field.",
+      "id": "gluing.hermite.derivatives",
+      "module": "gluing",
+      "nonzero_residuals": [],
+      "residual_count": 2,
+      "status": "PASS"
+    },
+    {
+      "claim": "Finite Taylor jets have the claimed scaled leading orders H=h+O(t), H'=((1-y)P+(1+y)Q)/2+O(t), H''=-(P-Q)/(2t)+O(1).",
+      "evidence": "Arbitrary independent one-sided normal Taylor jets through degree four; z=t*y. All three normalized remainders coerce to a polynomial ring, so have no negative t powers. Uniform smooth-family remainder estimates remain analytic obligations.",
+      "id": "gluing.hermite.formal_orders",
+      "module": "gluing",
+      "nonzero_residuals": [],
+      "residual_count": 3,
+      "status": "PASS"
+    },
+    {
+      "claim": "The 2-by-2 determinant interpolation identity has the sign stated in the manuscript.",
+      "evidence": "Universal polynomial identity for two arbitrary symmetric 2-by-2 matrices.",
+      "id": "gluing.determinant",
+      "module": "gluing",
+      "nonzero_residuals": [],
+      "residual_count": 1,
+      "status": "PASS"
+    },
+    {
+      "claim": "Subtracting the interpolated determinant gives the nonnegative tangential correction +l(1-l) det(P-Q)/4 when 0<=l<=1 and P-Q is positive definite.",
+      "evidence": "Exact identity; positive definiteness and the interval restriction are explicit mathematical premises.",
+      "id": "gluing.tangential_gain",
+      "module": "gluing",
+      "nonzero_residuals": [],
+      "residual_count": 1,
+      "status": "PASS"
+    },
+    {
+      "claim": "The displayed all-lowered coordinate curvature formula has the correct convention and separates linear second derivatives from nonlinear first derivatives.",
+      "evidence": "2401 exact polynomial component identities from independent differentiation of connection coefficients, for arbitrary collar 2-jets in the manuscript's dimension seven at slice normal coordinates.",
+      "id": "gluing.curvature.coordinate_formula",
+      "module": "gluing",
+      "nonzero_residuals": [],
+      "residual_count": 2401,
+      "status": "PASS"
+    },
+    {
+      "claim": "Radial block equals -H''/2+H' H^{-1} H'/4.",
+      "evidence": "36 exact entries; H=I at the evaluation point, so H^{-1}=I. The quadratic term is a sum of squares on diagonal entries.",
+      "id": "gluing.curvature.radial",
+      "module": "gluing",
+      "nonzero_residuals": [],
+      "residual_count": 36,
+      "status": "PASS"
+    },
+    {
+      "claim": "Tangential Gauss block has the sign that yields K_G=K_H-det(H'|Pi)/(4 det(H|Pi)).",
+      "evidence": "1296 arbitrary formal tangential components in dimension seven, independently calculated from the Levi-Civita connection.",
+      "id": "gluing.curvature.gauss",
+      "module": "gluing",
+      "nonzero_residuals": [],
+      "residual_count": 1296,
+      "status": "PASS"
+    },
+    {
+      "claim": "Mixed curvature block equals ((D_j H')_ik-(D_i H')_jk)/2 and contains no H''.",
+      "evidence": "216 arbitrary formal mixed components; tangential slice Christoffels vanish at the point, so covariant derivatives there equal partial derivatives.",
+      "id": "gluing.curvature.codazzi",
+      "module": "gluing",
+      "nonzero_residuals": [],
+      "residual_count": 216,
+      "status": "PASS"
+    },
+    {
+      "claim": "The all-plane lower bound follows by an exact nonnegative square, including angles depending on tau.",
+      "evidence": "Identity for x=|cos(theta)|, y=|sin(theta)| with a0>0. Gap=(a0*x-2*M*y)^2/(2*a0). A sufficient explicit choice is 0<tau<=beta/(C0+2*M^2/a0+a0/2), also subject to all earlier smallness bounds.",
+      "id": "gluing.mixed.schur",
+      "module": "gluing",
+      "nonzero_residuals": [],
+      "residual_count": 2,
+      "status": "PASS"
+    },
+    {
+      "claim": "Jump coefficients of the metric and first derivative vanish at both interfaces.",
+      "evidence": "The four exact zero jumps eliminate delta-prime and delta contributions in a one-dimensional distributional second derivative. Distribution theory itself is an analytic input.",
+      "id": "gluing.interface.distributional_jump_coefficients",
+      "module": "gluing",
+      "nonzero_residuals": [],
+      "residual_count": 4,
+      "status": "PASS"
+    },
+    {
+      "claim": "Uniform C_X^j estimates, positivity for sufficiently small tau, and compact minima on all plane bundles.",
+      "evidence": "UNVERIFIED by finite algebra. Analytic audit finds the supplied argument valid for fixed smooth families on compact X with Delta>=2*b_* h and positive input sectional curvature; these hypotheses are not established by this module.",
+      "id": "gluing.analytic.uniformity",
+      "module": "gluing",
+      "status": "UNVERIFIED"
+    },
+    {
+      "claim": "Common tensor convolution and localized smoothing preserve positive sectional curvature.",
+      "evidence": "UNVERIFIED by finite algebra. Analytic audit finds no gap: C1 matching removes singular measures; R=L(D2G)+Q(G,DG); C1 convergence controls Q; nonnegative convolution preserves the decomposable-bivector cone; C2 convergence controls the fixed smooth cutoff annuli. Bounds depend on tau after tau is fixed.",
+      "id": "gluing.analytic.smoothing",
+      "module": "gluing",
+      "status": "UNVERIFIED"
+    },
+    {
+      "claim": "The particular disk metrics satisfy the global positive sectional-curvature and strictly positive boundary-jump hypotheses.",
+      "evidence": "Outside this module: no finite Appendix B identity verifies the earlier geometric construction or its premises.",
+      "id": "gluing.application.input_metrics",
+      "module": "gluing",
+      "status": "UNVERIFIED"
+    },
+    {
+      "claim": "Section 6 obtains K>min(c_S,c_N)/2 from Reiser-Wraith Corollary B.",
+      "evidence": "Primary source arXiv:2308.06996v2, Theorem A(i) and Corollary B, was read on 2026-09-25: k=1 is sectional curvature and the lower threshold may be any real kappa. This is a checked external theorem interface, not a machine proof. Appendix B alone does not assert this exact half-min constant.",
+      "id": "gluing.external.quantitative_bound",
+      "module": "gluing",
+      "status": "UNVERIFIED"
+    },
+    {
+      "claim": "A/(B(1+x)) gives slack A/(1+x) in A-B*epsilon*x at the threshold",
+      "evidence": "Universal rational identity for A,B>0 and x>=0; expressions below instantiate it.",
+      "id": "P01",
+      "module": "parameter_logic",
+      "nonzero_residuals": [],
+      "status": "PASS"
+    },
+    {
+      "claim": "For 0<=epsilon<=1, epsilon^3<=epsilon",
+      "evidence": "Exact factorization epsilon-epsilon^3=epsilon(1-epsilon)(1+epsilon).",
+      "id": "P02",
+      "module": "parameter_logic",
+      "nonzero_residuals": [],
+      "status": "PASS"
+    },
+    {
+      "claim": "Every displayed scalar upper bound satisfies its corresponding linear constraint",
+      "evidence": "11 exact rational identities. Cubic constraints also use P02. Finiteness and signs of geometric constants are explicit premises.",
+      "id": "P03",
+      "module": "parameter_logic",
+      "nonzero_residuals": [],
+      "status": "PASS"
+    },
+    {
+      "claim": "Northern d<1 follows with a fixed strict reserve from the chosen thresholds",
+      "evidence": "d^2=epsilon*(epsilon A0 Fa)^2 exp(epsilon A0 c)/4 < epsilon/8 <=1/8.",
+      "id": "P04",
+      "module": "parameter_logic",
+      "nonzero_residuals": [],
+      "status": "PASS"
+    },
+    {
+      "claim": "The allocated mixed-loss budget leaves exactly epsilon Lambda/8",
+      "evidence": "The mixed coefficient budget is exactly epsilon Lambda/8. Other reserves are kappa/2 and 1/(8 epsilon).",
+      "id": "P05",
+      "module": "parameter_logic",
+      "nonzero_residuals": [],
+      "status": "PASS"
+    },
+    {
+      "claim": "The concrete n-dependent curvature suprema and smooth cutoff derivative bounds are finite, and all interval/exponential monotonicity hypotheses apply",
+      "evidence": "This is established by the smooth compact geometric construction and elementary analysis; no finite CAS assertion formalizes these global statements.",
+      "id": "P06",
+      "module": "parameter_logic",
+      "status": "UNVERIFIED"
+    },
+    {
+      "claim": "The rational cells cover [1/2,4] without a gap.",
+      "evidence": "224 closed rational intervals of width 1/64, exact adjacency checks.",
+      "id": "I01",
+      "module": "interval_bounds",
+      "status": "PASS"
+    },
+    {
+      "claim": "The elementary ratio is greater than 1/2 on every point of [1/2,4].",
+      "evidence": "All 224 outward-rounded interval lower endpoints are greater than the exact rational 1/2.",
+      "id": "I02",
+      "module": "interval_bounds",
+      "status": "PASS"
+    },
+    {
+      "claim": "Exact endpoint comparisons close the small and large tails, conditional on the positive sinh-series bound.",
+      "evidence": "Small tail R>=2 and large tail R>=8/3; both exceed 1/2. Tail reasoning is analytic, not finite sampling.",
+      "id": "I03",
+      "module": "interval_bounds",
+      "status": "PASS"
+    },
+    {
+      "claim": "The stated strict exponential and fourth-root reserves have rigorous interval separation.",
+      "evidence": "Three outward-rounded enclosures separated from their exact rational thresholds.",
+      "id": "I04",
+      "module": "interval_bounds",
+      "status": "PASS"
+    },
+    {
+      "claim": "The concrete northern-only parameter witness obeys both epsilon conditions.",
+      "evidence": "Rigorous enclosures show q_s ell_N<1/2 and 0<d<1; delta comparisons are exact rational.",
+      "id": "I05",
+      "module": "interval_bounds",
+      "status": "PASS"
+    },
+    {
+      "claim": "The witness gives strictly positive certified scalar c_N and c_B.",
+      "evidence": "Exact rational lower endpoints of both outward-rounded intervals are positive; no underflow or floating-point sign test.",
+      "id": "I06",
+      "module": "interval_bounds",
+      "status": "PASS"
+    },
+    {
+      "claim": "Revised LaTeX labels are unique",
+      "evidence": {
+        "duplicates": [],
+        "labels": 115
+      },
+      "id": "D01",
+      "module": "document",
+      "status": "PASS"
+    },
+    {
+      "claim": "All ref/eqref/hyperref targets exist",
+      "evidence": {
+        "missing": []
+      },
+      "id": "D02",
+      "module": "document",
+      "status": "PASS"
+    },
+    {
+      "claim": "All citation keys have bibliography entries",
+      "evidence": {
+        "missing": []
+      },
+      "id": "D03",
+      "module": "document",
+      "status": "PASS"
+    },
+    {
+      "claim": "All nine theorem, lemma and proposition statements agree byte-for-byte with the supplied v12",
+      "evidence": {
+        "entire_source_unchanged": true,
+        "statement_blocks": 9
+      },
+      "id": "D04",
+      "module": "document",
+      "status": "PASS"
+    },
+    {
+      "claim": "The standard-library-only checker accepts all exported supported certificates",
+      "evidence": {
+        "checked": 48,
+        "failures": [],
+        "scope": "encoded rational polynomial claims only"
+      },
+      "id": "independent_exact_replay",
+      "module": "certificate_replay",
+      "status": "PASS"
+    },
+    {
+      "claim": "Adding 1 to the right side of each unexpanded identity is detected",
+      "evidence": {
+        "accepted_mutations": [],
+        "all_rejected": true,
+        "mutations_tested": 33
+      },
+      "id": "incorrect_certificates_rejected",
+      "module": "certificate_replay",
+      "status": "PASS"
+    }
+  ],
+  "computation_status": "PASS",
+  "counts": {
+    "PASS": 80,
+    "UNVERIFIED": 7
+  },
+  "elapsed_seconds": 16.4113,
+  "failed_checks": [],
+  "finished_utc": "2026-09-25T13:34:58.716926+00:00",
+  "limitations": {
+    "connection": [
+      "Koszul computation assumes the printed principal-frame brackets and curvature equivariance; their geometric derivation is not formalized in a proof assistant.",
+      "Normal base-frame curvature must be restored to HHHH; its sectional lower bound kappa is an assumption.",
+      "Array estimates use exact Cauchy sum-of-squares kernels plus explicit index contractions and triangle inequalities, not quantifier elimination over all tensors.",
+      "Existence and uniformity on the compact disk use smoothness and compactness arguments outside symbolic algebra.",
+      "No explicit global M0 or M1 is computed for g_n; they depend on the chosen smooth cutoff and clutching map.",
+      "The source proposition is conditional on a uniformly concave phi; on a closed boundaryless base that hypothesis cannot hold. This is vacuity, not a contradiction.",
+      "The global theorem also requires the separate north construction, boundary matching, and gluing arguments."
+    ],
+    "document": [
+      "Document consistency checks do not assess the truth of mathematical statements or the correctness of external references."
+    ],
+    "gluing": [
+      "PASS denotes exact listed algebraic identities, not global existence or an automatic proof of the positive gluing theorem.",
+      "The formal Taylor certificate uses finite jets; smooth-family Taylor remainder bounds, tangential regularity, compactness, and convergence are analytic reasoning.",
+      "Curvature components are checked for generic jets in the actual ambient dimension seven at normal slice coordinates; the universal all-dimension index derivation remains the mathematical argument.",
+      "Input metrics and strict boundary-jump positivity are hypotheses, not outputs of these checks.",
+      "No external theorem or reference content is certified here, and no numeric samples are used."
+    ],
+    "interval_bounds": [
+      "This module certifies specified scalar inequalities, not every plane of an actual metric by interval subdivision.",
+      "Global x>0 control uses the stated analytic positive-series tails in addition to the finite interval domain.",
+      "The independent standard-library checker cannot recompute exp, sinh or sqrt; interval output is replayed only by rerunning Sage/MPFI/MPFR.",
+      "Smooth cutoff existence, ODE inverse existence, geometric reduction to scalar bounds, and the southern and gluing theorems remain analytic dependencies.",
+      "The witness is not a closed-manifold metric and does not select a valid southern connection or A0 for any smooth sphere type."
+    ],
+    "north": [
+      "Sage checks algebraic identities, exact inequalities and jets, not a formal proof of smooth ODE inversion, smooth cutoff existence, compactness, or smooth polar extension. These steps have been reviewed analytically and no defect was found.",
+      "The north proof uses standard submersion and warped-product geometry. The quotient's global disk marking and the identity-to-sigma^n transition are inherited from the earlier topology section, not independently certified by this module.",
+      "Boundary equality is proved conditional on the southern connection vanishing in the stated common north gauge and the southern boundary formulas. This module does not certify the southern positive-curvature theorem.",
+      "The explicit rational witness is for north alone. General coexistence with a selected southern filling follows conditionally from that filling supplying a positive eps_S and fixed A0.",
+      "No claim of complete manuscript correctness or a formal proof assistant verification follows from these finite exact checks."
+    ],
+    "parameter_logic": [
+      "The bounds are symbolic functions of fixed finite constants. This is not a numerical evaluation of M0 or M1 for 28 individual bundles.",
+      "log(2)>1/2 follows by integrating 1/t>1/2 over [1,2); inverse-function and compactness arguments are supplied in the human proof."
+    ],
+    "source_binding": [
+      "Hashes establish source identity, not formula truth or a correct translation. Human review establishes correspondence to the independently derived code.",
+      "The inventory covers labeled equation/align/gather environments, not every inline or unlabeled formula. The full-source hash binds all remaining text."
+    ],
+    "topology": [
+      "DPR Theorem 1 and its Section 4 identify the attaching map with class n mod 28; this is an externally cited theorem, not a Sage classification.",
+      "Equivariance of the exponential, smooth removable extensions, smooth free quotients, and the integer iterate argument are mathematical proofs documented in docs/PROOF_SCOPE.md.",
+      "This module does not infer all-28 curvature existence from enumeration of residues."
+    ]
+  },
+  "main_theorem_machine_status": "NOT_FULLY_FORMALIZED_OR_MACHINE_CERTIFIED",
+  "meaning_of_pass": "All implemented checks, rigorous scalar interval enclosures and exact certificate replays passed; this is not a certificate for the complete all-28 smooth-existence theorem.",
+  "revised_sha256": "ea27de068cd78871211d0a1ac102e76b65c7bd1f033267fb24a2c5f8dc423f9e",
+  "runs": [
+    {
+      "counts": {
+        "PASS": 3
+      },
+      "elapsed_seconds": 0.025,
+      "module": "source_binding",
+      "returncode": 0
+    },
+    {
+      "counts": {
+        "PASS": 11
+      },
+      "elapsed_seconds": 4.202,
+      "module": "topology",
+      "returncode": 0
+    },
+    {
+      "counts": {
+        "PASS": 26,
+        "UNVERIFIED": 1
+      },
+      "elapsed_seconds": 4.1813,
+      "module": "connection",
+      "returncode": 0
+    },
+    {
+      "counts": {
+        "PASS": 12,
+        "UNVERIFIED": 1
+      },
+      "elapsed_seconds": 3.8021,
+      "module": "north",
+      "returncode": 0
+    },
+    {
+      "counts": {
+        "PASS": 11,
+        "UNVERIFIED": 4
+      },
+      "elapsed_seconds": 1.4611,
+      "module": "gluing",
+      "returncode": 0
+    },
+    {
+      "counts": {
+        "PASS": 5,
+        "UNVERIFIED": 1
+      },
+      "elapsed_seconds": 1.3225,
+      "module": "parameter_logic",
+      "returncode": 0
+    },
+    {
+      "counts": {
+        "PASS": 6
+      },
+      "elapsed_seconds": 1.3156,
+      "module": "interval_bounds",
+      "returncode": 0
+    },
+    {
+      "counts": {
+        "PASS": 4
+      },
+      "elapsed_seconds": 0.0266,
+      "module": "document",
+      "returncode": 0
+    }
+  ],
+  "schema_version": 1,
+  "source_sha256": "ea27de068cd78871211d0a1ac102e76b65c7bd1f033267fb24a2c5f8dc423f9e",
+  "started_utc": "2026-09-25T13:34:42.305207+00:00"
+}
