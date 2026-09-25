@@ -423,11 +423,6 @@ ninja.data = [{
           description: "SageMath verification companion — code, exact certificates, reproducible results, and reading guides.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PosSecSmoothS7/";
-            },},{id: "projects-positive-curvature-open-verification",
-          title: 'Positive curvature - open verification',
-          description: "Executed SageMath computations, exact certificates, and bilingual explanations for the v12 manuscript.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/PosSecSmoothS7/";
             },},{id: "projects-completed-prescribed-gaussian-curvature-by-discrete-conformality",
           title: '(Completed) Prescribed Gaussian Curvature by Discrete Conformality',
           description: "We propose a discrete approach for approximating solutions to the prescribed Gaussian curvature problem in two dimensional manifolds, based on the notion of discrete conformality. Our approach provides an eﬀicient numerical method to compute the solution by minimizing a convex functional.",
