@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Current Projects of Research and Patents
-nav: true
+nav: false
 nav_order: 3
 display_categories: [Research, Patents]
 horizontal: false
