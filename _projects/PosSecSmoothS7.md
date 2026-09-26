@@ -10,7 +10,7 @@ permalink: /projects/PosSecSmoothS7/
 # 上传以下文件后，将 downloads_ready 改为 true。
 # 如使用其他文件名或目录，只需修改本列表；正文链接会自动更新。
 # Upload the files below, then set downloads_ready to true.
-downloads_ready: false
+downloads_ready: true
 verification_files:
   paper: /assets/verification/PosSecSmoothS7/v12/paper-v12.pdf
   source: /assets/verification/PosSecSmoothS7/v12/v12_clean.tex
