@@ -44,9 +44,9 @@ The reference run also records **7 dependency groups not established by the comp
 
 ## Downloads
 
-{% unless page.downloads_ready %}
-> **Files pending upload.** The links below reserve the intended download locations. They become usable after the release files are uploaded to this repository; their presence does not imply that a file is already available.
-{% endunless %}
+# {% unless page.downloads_ready %}
+# > **Files pending upload.** The links below reserve the intended download locations. They become usable after the release files are uploaded to this repository; their presence does not imply that a file is already available.
+# {% endunless %}
 
 | Material | Purpose | Download |
 | :--- | :--- | :--- |
