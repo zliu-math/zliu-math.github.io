@@ -2,6 +2,8 @@
 layout: page
 title: Research
 permalink: /research/
+math: true
+mathjax: true
 nav: true
 nav_order: 2
 ---
