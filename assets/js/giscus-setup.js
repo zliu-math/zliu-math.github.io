@@ -22,7 +22,7 @@ function determineGiscusTheme() {
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
-    "data-mapping": "title",
+    "data-mapping": "pathname",
     "data-strict": "1",
     "data-reactions-enabled": "1",
     "data-emit-metadata": "0",
