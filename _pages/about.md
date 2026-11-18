@@ -52,7 +52,7 @@ I use probabilistic and geometric ideas to study learning dynamics and develop m
 
 
 
-### Research interests
+#### Research interests
 
  **Probability and stochastic analysis:** reflected diffusions, rough paths, stochastic networks, and probabilistic structures in representation theory; and their applications in PDE (eg. Hamilton-Jacobi Equations) and AI.
  
@@ -61,7 +61,7 @@ I use probabilistic and geometric ideas to study learning dynamics and develop m
  **Mathematics and AI:** mathematical foundations of AI: learning dynamics, generative and reflected diffusion models, geometric deep learning; and AI for mathematical research.
 
 
-### Background
+#### Background
 
 I am an Associate Professor affiliated with the
 [Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)](https://www.simis.cn/). Before this, I was a postdoctoral researcher at the
