@@ -66,7 +66,7 @@ I use probabilistic and geometric ideas to study learning dynamics and develop m
 
 I am an Associate Professor affiliated with the
 [Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)](https://www.simis.cn/). Before this, I was a postdoctoral researcher at the
-[Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)](https://www.simis.cn/) and the [Research Institute of Intelligent Complex Systems, Fudan University](https://iics.fudan.edu.cn/_s599/ywb/main.psp), also took a lecturer position at University of California, Berkeley.
+[Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)](https://www.simis.cn/) and the [Research Institute of Intelligent Complex Systems, Fudan University](https://iics.fudan.edu.cn/_s599/ywb/main.psp), also took a lecturer position at [University of California, Berkeley](https://statistics.berkeley.edu/).
 
 
 I received my Ph.D. in Operations Research from
