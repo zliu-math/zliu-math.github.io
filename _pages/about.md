@@ -54,8 +54,10 @@ I use probabilistic and geometric ideas to study learning dynamics and develop m
 
 ### Research interests
 
- **Probability and stochastic analysis:** reflected diffusions, rough paths, stochastic networks, and probabilistic structures in representation theory; and applications in PDE (eg. Hamilton-Jacobi Equations).
- **Differential geometry:** curvature, geometric invariants,Dirac operators, and optimal transport.
+ **Probability and stochastic analysis:** reflected diffusions, rough paths, stochastic networks, and probabilistic structures in representation theory; and their applications in PDE (eg. Hamilton-Jacobi Equations) and AI.
+ 
+ **Differential geometry:** curvature, geometric invariants,Dirac operators, and optimal transport, and their applications to AI.
+ 
  **Mathematics and AI:** mathematical foundations of AI: learning dynamics, generative and reflected diffusion models, geometric deep learning; and AI for mathematical research.
 
 
