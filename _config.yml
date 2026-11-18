@@ -1,3 +1,547 @@
+# -----------------------------------------------------------------------------
+# Ziran Liu — academic website
+# Compatible with the existing al-folio templates in zliu-math.github.io.
+# -----------------------------------------------------------------------------
+
+title: Ziran Liu
+first_name: Ziran
+middle_name: null
+last_name: Liu
+author: Ziran Liu # Used by jekyll-feed.
+
+contact_note: >-
+  Address: Office 1303, SIMIS, Block A, International Innovation Plaza.<br>
+  657 Songhu Road, Yangpu District, Shanghai 200433, China.
+
+description: >-
+  Ziran Liu's academic homepage: probability, stochastic analysis,
+  differential geometry, operations research, mathematics for AI,
+  and AI for mathematics.
+
+# The footer template already supplies the copyright notice and current year.
+footer_text: ""
+
+# Concise descriptive metadata; Google does not use meta keywords for ranking.
+keywords: >-
+  Ziran Liu, probability theory, stochastic analysis, differential geometry,
+  operations research, reflected Brownian motion, stochastic networks,
+  mathematics for AI, AI for mathematics, machine learning, SIMIS, Fudan University
+
+lang: en
+timezone: Asia/Shanghai
+encoding: utf-8
+icon: "♾️"
+
+url: "https://zliu-math.github.io"
+baseurl: ""
+
+# This theme displays the build date, not the date of the last content edit.
+last_updated: false
+impressum_path: null
+back_to_top: true
+
+# -----------------------------------------------------------------------------
+# Theme and layout
+# -----------------------------------------------------------------------------
+
+repo_theme_light: default
+repo_theme_dark: dark
+repo_trophies:
+  enabled: false
+  theme_light: flat
+  theme_dark: gitdimmed
+
+navbar_fixed: true
+footer_fixed: false
+max_width: 930px
+
+# Search covers navigation, project/collection entries, and blog-post metadata.
+# It does not search the full text of papers or PDFs. Verified sample content
+# is excluded below so it does not appear in search results or the blog feed.
+search_enabled: true
+socials_in_search: true
+posts_in_search: true
+
+# The custom Research/Publications pages currently do not include bib_search.liquid.
+# To enable a bibliography filter, add that include to the page and set this true.
+bib_search: false
+
+# -----------------------------------------------------------------------------
+# Social sharing and structured data
+# -----------------------------------------------------------------------------
+
+serve_og_meta: true
+# The current metadata template prints this URL verbatim: use an absolute URL.
+og_image: "https://zliu-math.github.io/assets/img/Office_prof_1.jpg"
+
+# Keep disabled until _includes/metadata.liquid uses jsonify for JSON strings
+# and excludes cv_pdf from sameAs. A config switch alone cannot fix that template.
+serve_schema_org: false
+
+# -----------------------------------------------------------------------------
+# Analytics and search-engine verification
+# -----------------------------------------------------------------------------
+
+google_analytics: null
+cronitor_analytics: null
+pirsch_analytics: null
+openpanel_analytics: null
+
+# A Google verification tag already exists in _includes/head.liquid.
+# Leave this route off to avoid emitting a second tag. If migrating the token
+# here, remove the hard-coded tag in head.liquid as part of the same change.
+google_site_verification: null
+bing_site_verification: null
+
+# -----------------------------------------------------------------------------
+# Blog and feed
+# -----------------------------------------------------------------------------
+
+blog_name: Research Notes
+blog_description: Notes on probability, geometry, mathematics, and AI.
+permalink: /blog/:year/:title/
+lsi: false
+
+pagination:
+  enabled: true
+
+related_blog_posts:
+  enabled: true
+  max_related: 5
+
+# Set real repository/category IDs before enabling giscus_comments on a page.
+# The existing deploy workflow fills giscus.repo at build time.
+giscus:
+  repo: null
+  repo_id: null
+  category: Comments
+  category_id: null
+  mapping: pathname
+  strict: 1
+  reactions_enabled: 1
+  input_position: bottom
+  dark_theme: dark
+  light_theme: light
+  emit_metadata: 0
+  lang: en
+
+# Use null, not an empty string: empty strings are truthy in Liquid.
+disqus_shortname: null
+
+# Add only feeds or posts that you intentionally want to publish here.
+external_sources: []
+display_tags: []
+display_categories: []
+
+newsletter:
+  enabled: false
+  endpoint: null
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  books:
+    output: true
+  news:
+    output: true
+  projects:
+    output: true
+
+# -----------------------------------------------------------------------------
+# Jekyll, Markdown, and build inputs
+# -----------------------------------------------------------------------------
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+include: ["_pages", "_scripts"]
+exclude:
+  - bin/
+  - CONTRIBUTING.md
+  - CUSTOMIZE.md
+  - Dockerfile
+  - docker-compose.yml
+  - docker-compose-slim.yml
+  - FAQ.md
+  - Gemfile
+  - Gemfile.lock
+  - INSTALL.md
+  - LICENSE
+  - lighthouse_results/
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - _pages/about_einstein.md
+  - purgecss.config.js
+  - README.md
+  - readme_preview/
+  - requirements.txt
+  - vendor
+
+  # Verified al-folio demonstrations. Exclude exact files, not entire folders:
+  # new original posts, news, books, and research projects remain publishable.
+  - _pages/profiles.md
+  - _pages/dropdown.md
+  - _pages/repositories.md
+  - _pages/t_eaching.md
+  - _books/the_godfather.md
+  - _news/announcement_1.md
+  - _news/announcement_2.md
+  - _news/announcement_3.md
+  - _posts/2015-03-15-formatting-and-links.md
+  - _posts/2015-05-15-images.md
+  - _posts/2015-07-15-code.md
+  - _posts/2015-10-20-disqus-comments.md
+  - _posts/2015-10-20-math.md
+  - _posts/2018-12-22-distill.md
+  - _posts/2020-09-28-twitter.md
+  - _posts/2021-07-04-diagrams.md
+  - _posts/2022-02-01-redirect.md
+  - _posts/2022-12-10-giscus-comments.md
+  - _posts/2023-03-20-table-of-contents.md
+  - _posts/2023-03-21-tables.md
+  - _posts/2023-04-24-videos.md
+  - _posts/2023-04-25-audios.md
+  - _posts/2023-04-25-sidebar-table-of-contents.md
+  - _posts/2023-05-12-custom-blockquotes.md
+  - _posts/2023-07-04-jupyter-notebook.md
+  - _posts/2023-12-12-tikzjax.md
+  - _posts/2024-01-26-chartjs.md
+  - _posts/2024-01-26-echarts.md
+  - _posts/2024-01-26-geojson-map.md
+  - _posts/2024-01-27-advanced-images.md
+  - _posts/2024-01-27-code-diff.md
+  - _posts/2024-01-27-vega-lite.md
+  - _posts/2024-04-15-pseudocode.md
+  - _posts/2024-04-28-post-citation.md
+  - _posts/2024-04-29-typograms.md
+  - _posts/2024-05-01-tabs.md
+  - _posts/2024-12-04-photo-gallery.md
+  - _posts/2025-03-26-plotly.md
+
+  # These three files currently contain identical unfinished placeholder text.
+  # Remove each exclusion when that project page has real content ready to show.
+  - _projects/FKConvRate.md
+  - _projects/RieGeoNN.md
+  - _projects/TwoQueues.md
+
+keep_files:
+  - CNAME
+  - .nojekyll
+
+# Keep synchronized with the existing Gemfile and custom _plugins directory.
+plugins:
+  - jekyll-archives-v2
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-tabs
+  - jekyll-terser
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
+
+# Collection layouts belong in top-level front-matter defaults.
+defaults:
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: post
+  - scope:
+      path: assets
+    values:
+      sitemap: false
+  - scope:
+      path: _pages/404.md
+    values:
+      sitemap: false
+  - scope:
+      path: _pages/research.md
+    values:
+      description: >-
+        Research and publications by Ziran Liu in probability, differential
+        geometry, operations research, mathematics for AI, and AI for mathematics.
+  - scope:
+      path: _pages/publications.md
+    values:
+      description: >-
+        Publications and preprints by Ziran Liu, with abstracts and links
+        to papers on probability, geometry, operations research, and AI.
+
+sass:
+  style: compressed
+
+jekyll-minifier:
+  compress_javascript: false # JavaScript is handled by Terser.
+  exclude: ["robots.txt", "assets/js/search/*.js"]
+
+terser:
+  compress:
+    drop_console: true
+
+jekyll-archives:
+  posts:
+    enabled: [year, tags, categories]
+    permalinks:
+      year: "/blog/:year/"
+      tags: "/blog/:type/:name/"
+      categories: "/blog/:type/:name/"
+  books:
+    enabled: [year, tags, categories]
+
+# -----------------------------------------------------------------------------
+# Publications
+# -----------------------------------------------------------------------------
+
+scholar:
+  last_name: [Liu]
+  first_name: [Ziran]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+  # Individual bibliography tags can override these defaults.
+  # The current Research/Publications pages explicitly use --group_by none.
+  group_by: year
+  group_order: descending
+
+# The custom bib template does not currently render these badges.
+# Disabling Altmetric/Dimensions also removes their site-wide external scripts.
+enable_publication_badges:
+  altmetric: false
+  dimensions: false
+  google_scholar: false
+  inspirehep: false
+
+filtered_bibtex_keywords:
+  - abbr
+  - abstract
+  - additional_info
+  - altmetric
+  - annotation
+  - arxiv
+  - award
+  - award_name
+  - bibtex_show
+  - blog
+  - code
+  - google_scholar_id
+  - html
+  - inspirehep_id
+  - pdf
+  - poster
+  - preview
+  - selected
+  - slides
+  - supp
+  - video
+  - website
+
+max_author_limit: null # Show all authors; retain precise author identification.
+more_authors_animation_delay: 10
+# The custom bib template currently checks entry.preview directly.
+enable_publication_thumbnails: true
+
+# -----------------------------------------------------------------------------
+# External links and images
+# -----------------------------------------------------------------------------
+
+external_links:
+  enabled: true
+  rel: external noopener
+  target: _blank
+  exclude: []
+
+# The GitHub Actions workflow already installs ImageMagick.
+# Keep input formats aligned with the WebP srcset logic in figure.liquid.
+imagemagick:
+  enabled: true
+  widths: [480, 800, 1400]
+  input_directories:
+    - assets/img/
+  input_formats: [".jpg", ".jpeg", ".png", ".tiff", ".gif"]
+  output_formats:
+    webp: "-quality 85"
+
+lazy_loading_images: true
+
+# -----------------------------------------------------------------------------
+# Optional features
+# -----------------------------------------------------------------------------
+
+enable_google_analytics: false
+enable_cronitor_analytics: false
+enable_pirsch_analytics: false
+enable_openpanel_analytics: false
+enable_google_verification: false
+enable_bing_verification: false
+enable_masonry: true
+enable_math: true
+enable_tooltips: false
+enable_darkmode: true
+enable_navbar_social: false
+enable_project_categories: true
+enable_medium_zoom: true
+enable_progressbar: false
+enable_video_embedding: false
+
+# -----------------------------------------------------------------------------
+# Third-party libraries
+# Preserve existing URLs, versions, and SRI hashes together.
+# download: true would download all configured libraries during the build.
+# -----------------------------------------------------------------------------
+
+
+third_party_libraries:
+  download: false # if true, download the versions of the libraries specified below and use the downloaded files
+  bootstrap-table:
+    integrity:
+      css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
+      js: "sha256-4rppopQE9POKfukn2kEvhJ9Um25Cf6+IDVkARD0xh78="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.css"
+      js: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
+    version: "1.22.4"
+  chartjs:
+    integrity:
+      js: "sha256-0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/chart.js@{{version}}/dist/chart.umd.min.js"
+    version: "4.4.1"
+  d3:
+    integrity:
+      js: "sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/d3@{{version}}/dist/d3.min.js"
+    version: "7.8.5"
+  diff2html:
+    integrity:
+      css: "sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg="
+      js: "sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/diff2html@{{version}}/bundles/css/diff2html.min.css"
+      js: "https://cdn.jsdelivr.net/npm/diff2html@{{version}}/bundles/js/diff2html-ui.min.js"
+    version: "3.4.47"
+  echarts:
+    integrity:
+      js:
+        library: "sha256-QvgynZibb2U53SsVu98NggJXYqwRL7tg3FeyfXvPOUY="
+        dark_theme: "sha256-sm6Ui9w41++ZCWmIWDLC18a6ki72FQpWDiYTDxEPXwU="
+    url:
+      js:
+        library: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/dist/echarts.min.js"
+        dark_theme: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/theme/dark-fresh-cut.js"
+    version: "5.5.0"
+  google_fonts:
+    url:
+      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+  highlightjs:
+    integrity:
+      css:
+        light: "sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY="
+        dark: "sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk="
+    url:
+      css:
+        light: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github.min.css"
+        dark: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github-dark.min.css"
+    version: "11.9.0"
+  imagesloaded:
+    integrity:
+      js: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
+    url:
+      js: https://cdn.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js
+    version: "5.0.0"
+  img-comparison-slider:
+    integrity:
+      css: "sha256-3qTIuuUWIFnnU3LpQMjqiXc0p09rvd0dmj+WkpQXSR8="
+      js: "sha256-EXHg3x1K4oIWdyohPeKX2ZS++Wxt/FRPH7Nl01nat1o="
+      map: "sha256-3wfqS2WU5kGA/ePcgFzJXl5oSN1QsgZI4/edprTgX8w="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/styles.min.css"
+      js: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.min.js"
+      map: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.js.map"
+    version: "8.0.6"
+  jquery:
+    integrity:
+      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
+    version: "3.6.0"
+  leaflet:
+    integrity:
+      css: "sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ="
+      js: "sha256-MgH13bFTTNqsnuEoqNPBLDaqxjGH+lCpqrukmXc8Ppg="
+      js_map: "sha256-YAoQ3FzREN4GmVENMir8vgHHypC0xfSK3CAxTHCqx1M="
+    local:
+      images: "images/"
+    url:
+      css: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.css"
+      images: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/images/"
+      js: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.js"
+      js_map: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.js.map"
+    version: "1.9.4"
+  lightbox2:
+    integrity:
+      css: "sha256-uypRbsAiJcFInM/ndyI/JHpzNe6DtUNXaWEUWEPfMGo="
+      js: "sha256-A6jI5V9s1JznkWwsBaRK8kSeXLgIqQfxfnvdDOZEURY="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/lightbox2@{{version}}/dist/css/lightbox.min.css"
+      js: "https://cdn.jsdelivr.net/npm/lightbox2@{{version}}/dist/js/lightbox.min.js"
+    version: "2.11.5"
+  mathjax:
+    integrity:
+      js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
+    local:
+      fonts: "output/chtml/fonts/woff-v2/"
+    url:
+      fonts: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
+      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
+    version: "3.2.2"
+  masonry:
+    integrity:
+      js: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/masonry-layout@{{version}}/dist/masonry.pkgd.min.js"
+    version: "4.2.2"
+  mdb:
+    integrity:
+      css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
+      css_map: "sha256-iYYMNfsJdVZjvsebJulg09miBXM4/GMTJgv1u5EZFFM="
+      js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+      js_map: "sha256-UPgyn4YNsT0khkBK5553QwhnlbTlU0aa+igyc6qP1bE="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css"
+      css_map: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css.map"
+      js: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js"
+      js_map: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js.map"
+    version: "4.20.0"
   medium_zoom:
     integrity:
       js: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
