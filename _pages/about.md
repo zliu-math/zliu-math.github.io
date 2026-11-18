@@ -49,13 +49,10 @@ My research centers on **probability theory** and **differential geometry**. I p
 
 I use probabilistic and geometric ideas to study learning dynamics and develop methods for machine learning. I also explore how AI can support mathematical discovery and rigorous reasoning. These directions often inform one another: questions from AI suggest new mathematics, while mathematical results guide the development of new models and algorithms.
 
-[Research and publications]({{ '/research/' | relative_url }})
-&middot; [Teaching]({{ '/teaching/' | relative_url }})
-&middot; [CV]({{ '/cv/' | relative_url }})
 
 
 
-# Research interests
+### Research interests
 
 - **Probability and stochastic analysis:** reflected diffusions, rough paths,
   stochastic networks, and probabilistic structures in representation theory.
@@ -65,7 +62,7 @@ I use probabilistic and geometric ideas to study learning dynamics and develop m
   models, geometric deep learning, and AI for mathematical research.
 
 
-# Background
+### Background
 
 I am an Associate Professor affiliated with the
 [Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)](https://www.simis.cn/)
