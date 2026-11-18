@@ -2,19 +2,34 @@
 layout: about
 title: About
 permalink: /
-subtitle: Postdoctoral Researcher | Math &times; AI | <a href='http://www.simis.cn/'>SIMIS</a> & <a href='https://en.wikipedia.org/wiki/Fudan_University'>Fudan University</a>.
+description: >-
+  Ziran Liu's academic homepage: probability, stochastic analysis,
+  differential geometry, operations research, mathematics for AI,
+  and AI for mathematics.
+subtitle: >-
+  Associate Professor | Mathematics &times; AI |
+  <a href="https://www.simis.cn/">SIMIS</a> &amp;
+  <a href="https://www.fudan.edu.cn/en/">Fudan University</a>
+
+
 
 profile:
   align: right
   image: Office_prof_1.jpg
-  image_circular: false # 如果你想要圆形的头像，把这里改成 true
-  more_info: >
-    <p>Office 1220, Shanghai Institute for Mathematics</p>
-    <p>and Interdisciplinary Sciences</p>
-    <p>Shanghai, China, 200433</p>
+  image_circular: false
+  # Keep this address consistent with contact_note in _config.yml.
+  more_info: >-
+    <p>Office 1303, SIMIS<br>
+    657 Songhu Road, Yangpu District<br>
+    Shanghai 200433, China</p>
 
-selected_papers: false # 这一项保留，它会自动展示你设为 selected=true 的论文
-social: true  # 这一项保留，展示你的 Google Scholar 和 Email 图标
+# Set to true to display bibliography entries marked selected = {true}.
+selected_papers: false
+# Display the links configured in _data/socials.yml.
+social: true
+
+
+
 
 announcements:
   enabled: false # 已关闭：省去维护新闻的麻烦
@@ -29,16 +44,42 @@ latest_posts:
 
 
 
+My research centers on **probability theory** and **differential geometry**. I pursue questions in pure mathematics alongside work on the **mathematical foundations of AI** and **AI for mathematics**.
+
+
+I use probabilistic and geometric ideas to study learning dynamics and develop methods for machine learning. I also explore how AI can support mathematical discovery and rigorous reasoning. These directions often inform one another: questions from AI suggest new mathematics, while mathematical results guide the development of new models and algorithms.
+
+[Research and publications]({{ '/research/' | relative_url }})
+&middot; [Teaching]({{ '/teaching/' | relative_url }})
+&middot; [CV]({{ '/cv/' | relative_url }})
 
 
 
-My research is on both <span style="color: var(--global-theme-color); font-weight: bold;">Mathematics and AI</span>, spanning <span style="color: var(--global-theme-color); font-weight: bold;">math for AI</span> and <span style="color: var(--global-theme-color); font-weight: bold;">AI for math</span>. Mathematically, my work is rooted in <span style="color: var(--global-theme-color); font-weight: bold;">probability theory</span> and <span style="color: var(--global-theme-color); font-weight: bold;">differential geometry</span>, and these also remain the central topics to my work in pure mathematics. I move in both directions: I develop new mathematics for AI, and I apply mathematical structure into methods for solving problem in learning theory — while also exploring how AI can contribute back to mathematics. My projects always come as dual programs: a foundational mathematical line that is motivated by AI and a companion AI track to apply the developed mathematics.
+## Research interests
+
+- **Probability and stochastic analysis:** reflected diffusions, rough paths,
+  stochastic networks, and probabilistic structures in representation theory.
+- **Differential and spectral geometry:** curvature, geometric invariants,
+  Dirac operators, and optimal transport.
+- **Mathematics and AI:** learning dynamics, generative and reflected diffusion
+  models, geometric deep learning, and AI for mathematical research.
 
 
+## Background
 
+I am an Associate Professor affiliated with the
+[Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)](https://www.simis.cn/)
+and the
+[Research Institute of Intelligent Complex Systems, Fudan University](https://iics.fudan.edu.cn/_s599/ywb/main.psp).
 
-Bio:
-I am currently a postdoctoral researcher at the <a href="http://www.simis.cn/">Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)</a> and <a href="https://iics.fudan.edu.cn/_s599/ywb/main.psp"> Research Institute of Intelligent Complex Systems, Fudan University</a>. I received my Ph.D. in Operations Research (Honored, Beta Gamma Sigma) from <a href="https://www.stern.nyu.edu/">NYU Stern</a>. Before that, I received an M.S. in mathematics (probability theory) at <a href="https://cims.nyu.edu/">NYU Courant</a>, and an M.S. in mathematics (differential geometry) at <a href="https://en.cim.nankai.edu.cn/">Chern Institute of Mathematics at Nankai University</a>. I graduated with B.S. in pure mathematics (Honored, Class of S. S. Chern) at <a href="https://en.nankai.edu.cn/">Nankai University</a>.
+I received my Ph.D. in Operations Research from
+[NYU Stern](https://www.stern.nyu.edu/). Before that, I earned two master's
+degrees in mathematics: one from [NYU Courant](https://cims.nyu.edu/), focusing
+on probability theory, and one from
+[Nankai University](https://en.nankai.edu.cn/), focusing on differential geometry
+at the [Chern Institute of Mathematics](https://en.cim.nankai.edu.cn/).
+I received my B.S. in pure mathematics from Nankai University, where I studied
+in the S. S. Chern Class. I am a member of Beta Gamma Sigma.
 
 
 
